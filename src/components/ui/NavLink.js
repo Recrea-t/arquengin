@@ -12,7 +12,6 @@ const NavLink = props => {
 
   return (
     <MotionText
-      mb={{ base: isLast ? 0 : 8, sm: 0 }}
       mr={{ base: 0, sm: isLast ? 0 : 8 }}
       display="block"
       whileTap={{ scale: 0.95 }}

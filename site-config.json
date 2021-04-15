@@ -1,40 +1,41 @@
 {
-  "title": "Recrea't",
-  "titleTemplate": "%s · Recrea't",
+  "title": "Arquengin",
+  "titleTemplate": "%s · Arquengin",
   "description": "Disseny gràfic i comunicació",
-  "siteUrl": "https://recreat.cat",
+  "siteUrl": "https://www.arquengin.com",
   "image": "/images/Logo.svg",
   "color": "#E8864B",
   "author": {
     "name": "Recrea't",
-    "url": "https://recreat.cat"
+    "description": "Recrea't · Disseny gràfic i comunicació",
+    "url": "https://www.recreat.cat/"
   },
   "organization": {
-    "name": "Recrea't",
-    "url": "https://recreat.cat",
+    "name": "Arquengin",
+    "url": "https://www.arquengin.com",
     "logo": "/images/icon.png",
-    "email": "marta@recreat.cat",
+    "email": "info@arquengin.com",
     "phone": {
-      "number": 34646429298,
-      "title": "646 429 298"
+      "number": 34973626702,
+      "title": "973 62 67 02"
     },
-    "address": "Carrer Major</br>25580 Esterri d'Àneu"
+    "address": "Av. Francesc Macià 16</br>25580 Esterri d'Àneu"
   },
   "social": {
+    "pinterest": {
+      "username": "arquengin",
+      "title": "Segueix-nos a Pinterest",
+      "baseUrl": "https://www.pinterest.com/"
+    },
     "instagram": {
-      "username": "Recreat_Disseny_Comunicacio",
+      "username": "arquengin",
       "title": "Segueix-nos a Instagram",
       "baseUrl": "https://www.instagram.com/"
     },
     "facebook": {
-      "username": "RecreatDissenyComunicacio",
+      "username": "arquengin",
       "title": "Segueix-nos a Facebook",
       "baseUrl": "https://www.facebook.com/"
-    },
-    "linkedin": {
-      "username": "marta-bruna-b5847733",
-      "title": "Segueix-nos a Twitter",
-      "baseUrl": "https://www.linkedin.com/in/"
     }
   }
 }

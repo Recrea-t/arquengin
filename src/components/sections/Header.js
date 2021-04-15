@@ -1,25 +1,62 @@
 import React from "react"
 import { Link as GatsbyLink } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Flex, Link } from "@chakra-ui/react"
+import {
+  Flex,
+  Link,
+  Menu,
+  MenuButton,
+  Button,
+  MenuItem,
+  MenuList,
+  HStack,
+  useDisclosure,
+} from "@chakra-ui/react"
+
+import useSiteMetadata from "../siteMetadata"
 
 import NavLink from "../ui/NavLink"
+import SocialLink from "../ui/SocialLink"
 import ToggleMenu from "../ui/ToggleMenu"
 
-const Header = () => {
-  const [show, setShow] = React.useState(false)
-  const toggleMenu = () => setShow(!show)
+import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF"
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
+import { FaPinterestP } from "@react-icons/all-files/fa/FaPinterestP"
 
-  const MenuItems = ({ onClick }) => {
+const Header = () => {
+  const { social } = useSiteMetadata()
+
+  const { isOpen, onOpen, onClose } = useDisclosure()
+
+  const MenuItems = () => {
     return (
       <>
-        <NavLink to="/qui-som/" onClick={onClick}>
-          Qui Som
-        </NavLink>
-        <NavLink to="/serveis/" onClick={onClick}>
-          Serveis
-        </NavLink>
-        <NavLink to="/#contacte" onClick={onClick} isLast>
+        <NavLink to="/projectes/">Projectes</NavLink>
+        <NavLink to="/qui-som/">Qui Som</NavLink>
+        <Menu gutter={0}>
+          <MenuButton
+            as={Button}
+            variant="link"
+            colorScheme="mangoTango"
+            mb={{ base: 8, sm: 0 }}
+            mr={{ base: 0, sm: 8 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Serveis
+          </MenuButton>
+          <MenuList>
+            <MenuItem>
+              <NavLink to="/arquitectura/">Arquitectura</NavLink>
+            </MenuItem>
+            <MenuItem>
+              <NavLink to="/enginyeria/">Enginyeria</NavLink>
+            </MenuItem>
+            <MenuItem>
+              <NavLink to="/interiorisme/">Interiorisme</NavLink>
+            </MenuItem>
+          </MenuList>
+        </Menu>
+        <NavLink to="/#contacte" isLast>
           Contacte
         </NavLink>
       </>
@@ -29,7 +66,7 @@ const Header = () => {
   return (
     <Flex
       as="nav"
-      h={show ? "auto" : "100px"}
+      h={100}
       w="full"
       pos="fixed"
       top="0"
@@ -46,7 +83,12 @@ const Header = () => {
       borderBottomColor="mangoTango.500"
       wrap="wrap"
     >
-      <Link to="/" title="Inici" as={GatsbyLink}>
+      <Link
+        to="/"
+        title="Inici"
+        as={GatsbyLink}
+        display={isOpen ? "none" : "block"}
+      >
         <StaticImage
           src="../../images/LogoRecreat.png"
           alt="Logotip Recrea't"
@@ -57,9 +99,7 @@ const Header = () => {
         />
       </Link>
 
-      <ToggleMenu show={show} toggleMenu={toggleMenu}>
-        <MenuItems onClick={toggleMenu} />
-      </ToggleMenu>
+      <ToggleMenu isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
 
       <Flex
         display={{ base: "none", md: "inherit" }}
@@ -69,6 +109,12 @@ const Header = () => {
       >
         <MenuItems />
       </Flex>
+
+      <HStack spacing={4} display={{ base: "none", md: "inherit" }}>
+        <SocialLink item={social.pinterest} icon={FaPinterestP} />
+        <SocialLink item={social.instagram} icon={FaInstagram} />
+        <SocialLink item={social.facebook} icon={FaFacebookF} />
+      </HStack>
     </Flex>
   )
 }

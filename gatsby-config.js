@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: `Recrea't`,
-        short_name: `Recrea't`,
+        name: `Arquengin`,
+        short_name: `Arquengin`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#E8864B`,

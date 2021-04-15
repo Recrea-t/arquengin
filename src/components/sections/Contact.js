@@ -9,20 +9,14 @@ import {
   Link,
   Heading,
   VStack,
-  HStack,
   Icon,
 } from "@chakra-ui/react"
 
-import SocialLink from "../ui/SocialLink"
 import ContactForm from "../ui/ContactForm"
 
 import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt"
-import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
-import { FaInstagramSquare } from "@react-icons/all-files/fa/FaInstagramSquare"
-import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
-
 const Contact = () => {
-  const { organization, social } = useSiteMetadata()
+  const { organization } = useSiteMetadata()
 
   return (
     <Box
@@ -59,26 +53,6 @@ const Contact = () => {
               </Text>
             </Box>
             <ContactForm />
-          </VStack>
-
-          <VStack spacing={4} justify="center" textAlign="center">
-            <Icon as={FaMapMarkerAlt} h={12} w={12} />
-            <Text dangerouslySetInnerHTML={{ __html: organization.address }} />
-            <Text>
-              <Link href={`tel:${organization.phone.number}`} title="Truca'ns">
-                {organization.phone.title}
-              </Link>
-            </Text>
-            <Text>
-              <Link href={`mailto:${organization.email}`} title="Escriu-nos">
-                {organization.email}
-              </Link>
-            </Text>
-            <HStack spacing={4}>
-              <SocialLink item={social.instagram} icon={FaInstagramSquare} />
-              <SocialLink item={social.facebook} icon={FaFacebookSquare} />
-              <SocialLink item={social.linkedin} icon={FaLinkedin} />
-            </HStack>
           </VStack>
         </Flex>
       </Container>
