@@ -34,11 +34,11 @@ const ToggleMenu = props => {
       <Box
         ref={toggleRef}
         onClick={onOpen}
-        display={{ base: "block", md: "none" }}
+        display={{ base: "block", lg: "none" }}
         aria-label="Toggle navigation"
       >
         {isOpen ? (
-          <MinusIcon w={8} h={8} mt={12} />
+          <MinusIcon w={8} h={8} mt={4} />
         ) : (
           <HamburgerIcon w={8} h={8} />
         )}
@@ -51,17 +51,18 @@ const ToggleMenu = props => {
         autoFocus={false}
         colorScheme="mangoTango"
       >
-        <DrawerContent pt={100} maxWidth="75%" boxShadow={"none"}>
-          <DrawerBody>
-            <VStack>
+        <DrawerContent
+          pt={100}
+          maxWidth={{ base: "70%", md: "50%" }}
+          boxShadow={"none"}
+        >
+          <DrawerBody px={0}>
+            <VStack align="flex-start">
               <NavLink to="/projectes/">Projectes</NavLink>
               <NavLink to="/qui-som/">Qui Som</NavLink>
               <Button
                 fontWeight="normal"
-                variant="link"
-                colorScheme="mangoTango"
-                mb={{ base: 8, sm: 0 }}
-                mr={{ base: 0, sm: 8 }}
+                variant="nav-link"
                 whileTap={{ scale: 0.95 }}
                 onClick={toggleMenu}
               >
@@ -69,16 +70,22 @@ const ToggleMenu = props => {
               </Button>
               <Collapse in={show} animateOpacity>
                 <Box>
-                  <NavLink to="/arquitectura/">Arquitectura</NavLink>
-                  <NavLink to="/enginyeria/">Enginyeria</NavLink>
-                  <NavLink to="/interiorisme/">Interiorisme</NavLink>
+                  <NavLink variant="subnav-link" ml={12} to="/arquitectura/">
+                    Arquitectura
+                  </NavLink>
+                  <NavLink variant="subnav-link" ml={12} to="/enginyeria/">
+                    Enginyeria
+                  </NavLink>
+                  <NavLink variant="subnav-link" ml={12} to="/interiorisme/">
+                    Interiorisme
+                  </NavLink>
                 </Box>
               </Collapse>
               <NavLink to="/#contacte" isLast>
                 Contacte
               </NavLink>
 
-              <HStack spacing={4}>
+              <HStack spacing={4} alignSelf="center" pt={20}>
                 <SocialLink item={social.pinterest} icon={FaPinterestP} />
                 <SocialLink item={social.instagram} icon={FaInstagram} />
                 <SocialLink item={social.facebook} icon={FaFacebookF} />

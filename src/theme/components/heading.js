@@ -1,18 +1,22 @@
 export default {
   baseStyle: {
-    mb: "2rem",
-    textAlign: "center",
-    fontSize: "2xl",
-    fontWeight: "semibold",
-    textTransform: "uppercase",
+    fontWeight: "normal",
+    color: "greyishBrown.500",
+  },
+  sizes: {
+    lg: {
+      lineHeight: 1,
+    },
   },
   variants: {
-    "in-index": {
-      fontSize: "4xl",
-      fontWeight: "normal",
+    "in-hero": {
+      fontSize: ["5xl", null, "6xl"],
+      lineHeight: 1.37,
+      color: "#ffffff",
+      textAlign: "center",
     },
-    "no-margin": {
-      mb: "0",
-    },
+  },
+  defaultProps: {
+    size: "lg",
   },
 }

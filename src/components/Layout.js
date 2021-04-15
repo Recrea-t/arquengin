@@ -1,9 +1,7 @@
-import "@fontsource/montserrat"
-import "@fontsource/montserrat/100.css" // Thin
-import "@fontsource/montserrat/200.css" // Light
-import "@fontsource/montserrat/600.css" // Semi-bold
-import "@fontsource/montserrat/700.css" // Bold
-import "@fontsource/playfair-display"
+import "@fontsource/roboto"
+import "@fontsource/roboto/300.css" // Light
+import "@fontsource/roboto/700.css" // Bold
+import "@fontsource/dm-serif-text"
 
 import React from "react"
 import useSiteMetadata from "./siteMetadata"
@@ -37,7 +35,13 @@ const TemplateWrapper = props => {
         pos="relative"
       >
         <Header />
-        <Flex as="main" pos="relative" w="full" pt="100px" direction="column">
+        <Flex
+          as="main"
+          pos="relative"
+          w="full"
+          pt={{ base: "64px", lg: "96px" }}
+          direction="column"
+        >
           {props.children}
         </Flex>
         <Footer title={defaultTitle} />

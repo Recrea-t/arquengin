@@ -14,7 +14,6 @@ const IndexPage = props => {
     <Layout title={frontmatter.title} description={frontmatter.description}>
       <Hero {...props} />
       <Container mb={8}></Container>
-      <Contact />
     </Layout>
   )
 }
@@ -38,6 +37,15 @@ export const query = graphql`
       frontmatter {
         title
         description
+        hero {
+          childImageSharp {
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              placeholder: BLURRED
+              formats: [AVIF, WEBP, AUTO]
+            )
+          }
+        }
       }
     }
   }

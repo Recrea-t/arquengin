@@ -19,7 +19,7 @@ const SocialLink = props => {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      <Icon as={icon} h={8} w={8} />
+      <Icon as={icon} h={5} w={5} />
     </MotionLink>
   )
 }

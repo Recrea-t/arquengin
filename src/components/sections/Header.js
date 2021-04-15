@@ -33,26 +33,40 @@ const Header = () => {
       <>
         <NavLink to="/projectes/">Projectes</NavLink>
         <NavLink to="/qui-som/">Qui Som</NavLink>
-        <Menu gutter={0}>
-          <MenuButton
-            as={Button}
-            variant="link"
-            colorScheme="mangoTango"
-            mb={{ base: 8, sm: 0 }}
-            mr={{ base: 0, sm: 8 }}
-            whileTap={{ scale: 0.95 }}
-          >
+        <Menu gutter={0} matchWidth={true} colorScheme="revell">
+          <MenuButton as={Button} variant="nav-link" whileTap={{ scale: 0.95 }}>
             Serveis
           </MenuButton>
           <MenuList>
             <MenuItem>
-              <NavLink to="/arquitectura/">Arquitectura</NavLink>
+              <NavLink
+                variant="subnav-link"
+                w="full"
+                textAlign="center"
+                to="/arquitectura/"
+              >
+                Arquitectura
+              </NavLink>
             </MenuItem>
             <MenuItem>
-              <NavLink to="/enginyeria/">Enginyeria</NavLink>
+              <NavLink
+                variant="subnav-link"
+                w="full"
+                textAlign="center"
+                to="/enginyeria/"
+              >
+                Enginyeria
+              </NavLink>
             </MenuItem>
             <MenuItem>
-              <NavLink to="/interiorisme/">Interiorisme</NavLink>
+              <NavLink
+                variant="subnav-link"
+                w="full"
+                textAlign="center"
+                to="/interiorisme/"
+              >
+                Interiorisme
+              </NavLink>
             </MenuItem>
           </MenuList>
         </Menu>
@@ -66,7 +80,7 @@ const Header = () => {
   return (
     <Flex
       as="nav"
-      h={100}
+      h={{ base: "64px", lg: "96px" }}
       w="full"
       pos="fixed"
       top="0"
@@ -78,9 +92,7 @@ const Header = () => {
       p={4}
       mx="auto"
       bg="white"
-      color="mangoTango.500"
-      borderBottom="1px"
-      borderBottomColor="mangoTango.500"
+      boxShadow={isOpen ? "none" : "0px 5px 9px 0 rgba(0, 0, 0, 0.74)"}
       wrap="wrap"
     >
       <Link
@@ -90,10 +102,11 @@ const Header = () => {
         display={isOpen ? "none" : "block"}
       >
         <StaticImage
-          src="../../images/LogoRecreat.png"
-          alt="Logotip Recrea't"
+          src="../../images/Logo.jpg"
+          alt="Logotip Arquengin"
           loading="eager"
           layout="fixed"
+          formats={["auto", "webp", "avif"]}
           placeholder="tracedSVG"
           width={200}
         />
@@ -102,15 +115,15 @@ const Header = () => {
       <ToggleMenu isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
 
       <Flex
-        display={{ base: "none", md: "inherit" }}
+        display={{ base: "none", lg: "inherit" }}
         align="center"
         direction="row"
-        justify={{ md: "space-between", lg: "flex-end" }}
+        justify="flex-end"
       >
         <MenuItems />
       </Flex>
 
-      <HStack spacing={4} display={{ base: "none", md: "inherit" }}>
+      <HStack spacing={2} display={{ base: "none", lg: "inherit" }}>
         <SocialLink item={social.pinterest} icon={FaPinterestP} />
         <SocialLink item={social.instagram} icon={FaInstagram} />
         <SocialLink item={social.facebook} icon={FaFacebookF} />

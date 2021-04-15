@@ -14,7 +14,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react"
 
-import { FaPhone } from "@react-icons/all-files/fa/FaPhone"
+import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt"
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope"
 import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt"
 
@@ -23,12 +23,12 @@ const Footer = props => {
   const isNotSmallDevice = useBreakpointValue({ base: false, md: true })
 
   return (
-    <Box as="footer" w="full" bg="dimGray.500" color="white" fontSize="xs">
+    <Box as="footer" w="full" bg="greyishBrown.500" color="white">
       <VStack
         align="center"
         justify="center"
         w="full"
-        p={4}
+        p={{ base: 4, lg: 8 }}
         spacing={4}
         maxWidth="1200px"
         mx="auto"
@@ -39,13 +39,14 @@ const Footer = props => {
           direction={["column", null, "row"]}
           justify="space-evenly"
           textAlign="center"
+          mb={{ base: 0, lg: 4 }}
         >
           <Box>
             <Icon as={FaMapMarkerAlt} h={4} w={4} />
             <Text dangerouslySetInnerHTML={{ __html: organization.address }} />
           </Box>
           <Box>
-            <Icon as={FaPhone} h={4} w={4} />
+            <Icon as={FaPhoneAlt} h={4} w={4} />
             <Text>
               OFICINA:{" "}
               <Link
@@ -78,13 +79,19 @@ const Footer = props => {
           </Box>
         </Flex>
 
-        <Divider borderBottomWidth="3px" />
+        <Divider
+          borderBottomWidth="6px"
+          borderBottomColor="white"
+          opacity={1}
+        />
 
         <Flex
           w="full"
           direction={["column", null, "row"]}
           justify="space-evenly"
           textAlign="center"
+          fontWeight="light"
+          mt={{ base: 0, lg: 4 }}
         >
           <Text display={["block", null, "none"]}>
             {props.title} {new Date().getFullYear()}

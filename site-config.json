@@ -3,7 +3,7 @@
   "titleTemplate": "%s · Arquengin",
   "description": "Disseny gràfic i comunicació",
   "siteUrl": "https://www.arquengin.com",
-  "image": "/images/Logo.svg",
+  "image": "/images/Logo.jpg",
   "color": "#E8864B",
   "author": {
     "name": "Recrea't",
@@ -19,7 +19,7 @@
       "number": 34973626702,
       "title": "973 62 67 02"
     },
-    "address": "Av. Francesc Macià 16</br>25580 Esterri d'Àneu"
+    "address": "Avinguda Francesc Macià 16</br>25580 Esterri d'Àneu"
   },
   "social": {
     "pinterest": {
