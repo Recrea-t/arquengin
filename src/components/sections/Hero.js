@@ -48,17 +48,17 @@ const Hero = props => {
             >
               <Text>
                 d'
-                <span className="with-sized-border is-arquitectura">
+                <span className="hero-with-sized-border is-arquitectura">
                   arquitectura
                 </span>
               </Text>
               <Text>
-                <span className="with-sized-border is-enginyeria">
+                <span className="hero-with-sized-border is-enginyeria">
                   enginyeria
                 </span>
               </Text>
               <Text>
-                <span className="with-sized-border is-interiorisme">
+                <span className="hero-with-sized-border is-interiorisme">
                   interiorisme
                 </span>
               </Text>

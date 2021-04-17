@@ -1,11 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import { Container } from "@chakra-ui/react"
+import { Container, SimpleGrid } from "@chakra-ui/react"
 
 import Layout from "../components/Layout"
 import Hero from "../components/sections/Hero"
-import Contact from "../components/sections/Contact"
+import ServiceCard from "../components/ui/ServiceCard"
 
 const IndexPage = props => {
   const { frontmatter } = props.data.markdownRemark
@@ -13,7 +13,34 @@ const IndexPage = props => {
   return (
     <Layout title={frontmatter.title} description={frontmatter.description}>
       <Hero {...props} />
-      <Container mb={8}></Container>
+      <Container my={4}>
+        <SimpleGrid
+          columns={{ base: 1, md: 2, lg: 3 }}
+          spacing={{ base: 4, md: 8 }}
+        >
+          <ServiceCard
+            index={0}
+            title="Arquitectura"
+            items={frontmatter.arquitectura}
+            className="is-arquitectura"
+            to="/arquitectura/"
+          />
+          <ServiceCard
+            index={1}
+            title="Enginyeria"
+            items={frontmatter.enginyeria}
+            className="is-enginyeria"
+            to="/enginyeria/"
+          />
+          <ServiceCard
+            index={2}
+            title="Interiorisme"
+            items={frontmatter.interiorisme}
+            className="is-interiorisme"
+            to="/interiorisme/"
+          />
+        </SimpleGrid>
+      </Container>
     </Layout>
   )
 }
@@ -46,6 +73,9 @@ export const query = graphql`
             )
           }
         }
+        arquitectura
+        enginyeria
+        interiorisme
       }
     }
   }

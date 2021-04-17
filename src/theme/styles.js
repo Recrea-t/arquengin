@@ -11,14 +11,14 @@ const styles = {
         margin: "0 !important",
       },
     },
-    ".with-sized-border": {
+    ".hero-with-sized-border": {
       position: "relative",
-      zIndex: 1,
+      zIndex: 0,
 
       _after: {
         content: "''",
         position: "absolute",
-        top: "78%",
+        top: "80%",
         left: "1.3rem",
         height: "6px",
         width: "100%",
@@ -29,6 +29,28 @@ const styles = {
       _hover: {
         _after: {
           transform: "translateX(-1.3rem)",
+        },
+      },
+    },
+    ".with-sized-border": {
+      position: "relative",
+      zIndex: 0,
+      w: "100%",
+
+      _after: {
+        content: "''",
+        position: "absolute",
+        top: "90%",
+        left: "1rem",
+        height: "6px",
+        width: "calc(100% - 1rem)",
+        zIndex: -1,
+        transform: "translateX(0)",
+        transition: "transform 1s  cubic-bezier(0.34, 1.56, 0.64, 1)",
+      },
+      _hover: {
+        _after: {
+          transform: "translateX(-1rem)",
         },
       },
     },

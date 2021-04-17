@@ -15,7 +15,7 @@ enginyeria:
   - Projectes industrials
   - Instal·lacions
   - Estudis de Seguretat i Salut
-Interiorisme:
+interiorisme:
   - Espais comercials
   - Habitatge
   - Venda de mobiliari
