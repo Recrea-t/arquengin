@@ -60,8 +60,12 @@ const ToggleMenu = props => {
           >
             <DrawerBody px={0}>
               <VStack align="flex-start">
-                <NavLink to="/projectes/">Projectes</NavLink>
-                <NavLink to="/qui-som/">Qui Som</NavLink>
+                <NavLink to="/projectes/" onClick={onClose}>
+                  Projectes
+                </NavLink>
+                <NavLink to="/qui-som/" onClick={onClose}>
+                  Qui Som
+                </NavLink>
                 <Button
                   fontWeight="normal"
                   variant="nav-link"
@@ -72,18 +76,33 @@ const ToggleMenu = props => {
                 </Button>
                 <Collapse in={show} animateOpacity>
                   <Box>
-                    <NavLink variant="subnav-link" ml={12} to="/arquitectura/">
+                    <NavLink
+                      variant="subnav-link"
+                      ml={12}
+                      to="/arquitectura/"
+                      onClick={onClose}
+                    >
                       Arquitectura
                     </NavLink>
-                    <NavLink variant="subnav-link" ml={12} to="/enginyeria/">
+                    <NavLink
+                      variant="subnav-link"
+                      ml={12}
+                      to="/enginyeria/"
+                      onClick={onClose}
+                    >
                       Enginyeria
                     </NavLink>
-                    <NavLink variant="subnav-link" ml={12} to="/interiorisme/">
+                    <NavLink
+                      variant="subnav-link"
+                      ml={12}
+                      to="/interiorisme/"
+                      onClick={onClose}
+                    >
                       Interiorisme
                     </NavLink>
                   </Box>
                 </Collapse>
-                <NavLink to="/#contacte" isLast>
+                <NavLink to="/contacte/" onClick={onClose} isLast>
                   Contacte
                 </NavLink>
 

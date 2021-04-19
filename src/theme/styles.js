@@ -1,14 +1,21 @@
 const styles = {
   global: {
     html: {
-      //scrollBehavior: "smooth",
+      scrollBehavior: "smooth",
     },
     body: {
       color: "nightRider.500",
     },
-    ".markdown": {
-      li: {
-        margin: "0 !important",
+    ".markdown-blockquote": {
+      p: {
+        padding: ".5rem",
+      },
+      code: {
+        bg: "transparent",
+        py: "0",
+        px: "1rem",
+        fontFamily: "Roboto",
+        fontSize: "1rem",
       },
     },
     ".hero-with-sized-border": {
