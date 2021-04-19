@@ -1,29 +1,29 @@
-import React from "react";
-import { graphql } from "gatsby";
-import PropTypes from "prop-types";
+import React from "react"
+import { graphql } from "gatsby"
+import PropTypes from "prop-types"
 
-import { Container } from "@chakra-ui/react";
+import { Container } from "@chakra-ui/react"
 
-import ReactMarkdown from "react-markdown";
-import ChakraUIRenderer from "chakra-ui-markdown-renderer";
+import ReactMarkdown from "react-markdown"
+import ChakraUIRenderer from "chakra-ui-markdown-renderer"
 
-import Layout from "../components/Layout";
+import Layout from "../components/Layout"
 
 const GeneralPage = ({ data }) => {
-  const { frontmatter, rawMarkdownBody } = data.markdownRemark;
+  const { frontmatter, rawMarkdownBody } = data.markdownRemark
 
   return (
     <Layout title={frontmatter.title} description={frontmatter.description}>
       <Container className="markdown" variant="with-top-padding">
         <ReactMarkdown
-          renderers={ChakraUIRenderer()}
-          source={rawMarkdownBody}
+          components={ChakraUIRenderer()}
+          children={rawMarkdownBody}
           escapeHtml={false}
         />
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
 GeneralPage.propTypes = {
   data: PropTypes.shape({
@@ -32,9 +32,9 @@ GeneralPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-};
+}
 
-export default GeneralPage;
+export default GeneralPage
 
 export const query = graphql`
   query GeneralPageTemplateQuery($id: String) {
@@ -47,4 +47,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`

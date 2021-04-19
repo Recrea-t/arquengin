@@ -45,12 +45,25 @@ const styles = {
         height: "6px",
         width: "calc(100% - 1rem)",
         zIndex: -1,
+        bg: "#eee",
         transform: "translateX(0)",
         transition: "transform 1s  cubic-bezier(0.34, 1.56, 0.64, 1)",
       },
       _hover: {
         _after: {
           transform: "translateX(-1rem)",
+        },
+      },
+    },
+    ".justify-end": {
+      textAlign: "right",
+      _after: {
+        left: 0,
+        right: "-1rem",
+      },
+      _hover: {
+        _after: {
+          transform: "translateX(1rem)",
         },
       },
     },
@@ -67,6 +80,14 @@ const styles = {
     ".is-interiorisme": {
       _after: {
         bg: "#aa0645",
+      },
+    },
+    ".is-slider": {
+      ".slick-prev": {
+        left: "-2.5rem !important",
+      },
+      ".slick-next": {
+        right: "-2.5rem !important",
       },
     },
   },

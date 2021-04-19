@@ -10,6 +10,7 @@ import {
   Image,
   Text,
   Link,
+  Flex,
 } from "@chakra-ui/react"
 
 export const EASINGS = {
@@ -66,6 +67,16 @@ const MotionBox = motion(
       Object.entries(props).filter(([key]) => !isValidMotionProp(key))
     )
     return <Box ref={ref} {...chakraProps} />
+  })
+)
+
+export const MotionFlex = motion(
+  forwardRef((props, ref) => {
+    const chakraProps = Object.fromEntries(
+      // do not pass framer props to DOM element
+      Object.entries(props).filter(([key]) => !isValidMotionProp(key))
+    )
+    return <Flex ref={ref} {...chakraProps} />
   })
 )
 

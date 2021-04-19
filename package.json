@@ -50,7 +50,11 @@
     "react-helmet": "^6.1.0",
     "react-intersection-observer": "^8.31.0",
     "react-markdown": "^6.0.0",
+    "react-slick": "^0.28.1",
+    "react-slugify": "^2.0.3",
     "sharp": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "slugify": "^1.5.0",
     "uuid": "^8.3.2"
   },
   "scripts": {
