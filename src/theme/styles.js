@@ -89,6 +89,18 @@ const styles = {
         bg: "#aa0645",
       },
     },
+    "p.is-arquitectura": {
+      textDecoration: "underline",
+      textDecorationColor: "#249e25",
+    },
+    "p.is-enginyeria": {
+      textDecoration: "underline",
+      textDecorationColor: "#f29a1e",
+    },
+    "p.is-interiorisme": {
+      textDecoration: "underline",
+      textDecorationColor: "#aa0645",
+    },
     ".is-slider": {
       ".slick-prev": {
         left: "-2.5rem !important",

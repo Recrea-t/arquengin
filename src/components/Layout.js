@@ -37,10 +37,12 @@ const TemplateWrapper = props => {
         <Header />
         <Flex
           as="main"
+          id="main"
           pos="relative"
           w="full"
           pt={{ base: "64px", lg: "96px" }}
           direction="column"
+          transition="all .2s cubic-bezier(0.4, 0, 1, 1)"
         >
           {props.children}
         </Flex>

@@ -8,7 +8,6 @@ import {
   Button,
   Collapse,
   HStack,
-  DrawerOverlay,
 } from "@chakra-ui/react"
 import { HamburgerIcon, MinusIcon } from "@chakra-ui/icons"
 
@@ -28,13 +27,23 @@ const ToggleMenu = props => {
 
   const toggleRef = React.useRef()
 
+  const handleOpen = () => {
+    onOpen()
+    document.getElementById("main").style.marginRight = "50%"
+  }
+
+  const handleClose = () => {
+    onClose()
+    document.getElementById("main").style.marginRight = "0"
+  }
+
   const { social } = useSiteMetadata()
 
   return (
     <>
       <Box
         ref={toggleRef}
-        onClick={onOpen}
+        onClick={handleOpen}
         display={{ base: "block", lg: "none" }}
         aria-label="Toggle navigation"
       >
@@ -47,74 +56,72 @@ const ToggleMenu = props => {
       <Drawer
         isOpen={isOpen}
         placement="right"
-        onClose={onClose}
+        onClose={handleClose}
         finalFocusRef={toggleRef}
         autoFocus={false}
         colorScheme="mangoTango"
       >
-        <DrawerOverlay top="64px">
-          <DrawerContent
-            pt={100}
-            maxWidth={{ base: "70%", md: "50%" }}
-            boxShadow={"none"}
-          >
-            <DrawerBody px={0}>
-              <VStack align="flex-start">
-                <NavLink to="/projectes/" onClick={onClose}>
-                  Projectes
-                </NavLink>
-                <NavLink to="/qui-som/" onClick={onClose}>
-                  Qui Som
-                </NavLink>
-                <Button
-                  fontWeight="normal"
-                  variant="nav-link"
-                  whileTap={{ scale: 0.95 }}
-                  onClick={toggleMenu}
-                >
-                  Serveis
-                </Button>
-                <Collapse in={show} animateOpacity>
-                  <Box>
-                    <NavLink
-                      variant="subnav-link"
-                      ml={12}
-                      to="/arquitectura/"
-                      onClick={onClose}
-                    >
-                      Arquitectura
-                    </NavLink>
-                    <NavLink
-                      variant="subnav-link"
-                      ml={12}
-                      to="/enginyeria/"
-                      onClick={onClose}
-                    >
-                      Enginyeria
-                    </NavLink>
-                    <NavLink
-                      variant="subnav-link"
-                      ml={12}
-                      to="/interiorisme/"
-                      onClick={onClose}
-                    >
-                      Interiorisme
-                    </NavLink>
-                  </Box>
-                </Collapse>
-                <NavLink to="/contacte/" onClick={onClose} isLast>
-                  Contacte
-                </NavLink>
+        <DrawerContent
+          pt={100}
+          maxWidth={{ base: "70%", md: "50%" }}
+          boxShadow={"none"}
+        >
+          <DrawerBody px={0}>
+            <VStack align="flex-start">
+              <NavLink to="/projectes/" onClick={handleClose}>
+                Projectes
+              </NavLink>
+              <NavLink to="/qui-som/" onClick={handleClose}>
+                Qui Som
+              </NavLink>
+              <Button
+                fontWeight="normal"
+                variant="nav-link"
+                whileTap={{ scale: 0.95 }}
+                onClick={toggleMenu}
+              >
+                Serveis
+              </Button>
+              <Collapse in={show} animateOpacity>
+                <Box>
+                  <NavLink
+                    variant="subnav-link"
+                    ml={12}
+                    to="/arquitectura/"
+                    onClick={handleClose}
+                  >
+                    Arquitectura
+                  </NavLink>
+                  <NavLink
+                    variant="subnav-link"
+                    ml={12}
+                    to="/enginyeria/"
+                    onClick={handleClose}
+                  >
+                    Enginyeria
+                  </NavLink>
+                  <NavLink
+                    variant="subnav-link"
+                    ml={12}
+                    to="/interiorisme/"
+                    onClick={handleClose}
+                  >
+                    Interiorisme
+                  </NavLink>
+                </Box>
+              </Collapse>
+              <NavLink to="/contacte/" onClick={onClose} isLast>
+                Contacte
+              </NavLink>
 
-                <HStack spacing={4} alignSelf="center" pt={20}>
-                  <SocialLink item={social.pinterest} icon={FaPinterestP} />
-                  <SocialLink item={social.instagram} icon={FaInstagram} />
-                  <SocialLink item={social.facebook} icon={FaFacebookF} />
-                </HStack>
-              </VStack>
-            </DrawerBody>
-          </DrawerContent>
-        </DrawerOverlay>
+              <HStack spacing={4} alignSelf="center" pt={20}>
+                <SocialLink item={social.pinterest} icon={FaPinterestP} />
+                <SocialLink item={social.instagram} icon={FaInstagram} />
+                <SocialLink item={social.facebook} icon={FaFacebookF} />
+              </HStack>
+            </VStack>
+          </DrawerBody>
+        </DrawerContent>
       </Drawer>
     </>
   )

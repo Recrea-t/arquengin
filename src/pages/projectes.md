@@ -2,9 +2,8 @@
 templateKey: projects-list-page
 title: Projectes les Valls d'Àneu
 description: >-
-  Som un petit estudi pirinenc de disseny gràfic i comunicació que
-  donem resposta a totes aquelles necessitats d'àmbit comunicatiu que li
-  puguin sorgir a una empresa a partir de solucions gràfiques i digitals
+  Tenim una àmplia experiència al Pallars Sobirà desenvolupant projectes
+  de disseny i rehabilitació d'habitatges així com espais comercials
 text: |-
   El desenvolupament d'un projecte per la vostra empresa o llar és sempre un treball complex.
   Nosaltres ho gestionem amb eficàcia i rapidesa. Aquí mostrem alguns dels nostres treballs.

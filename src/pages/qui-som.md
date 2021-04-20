@@ -1,10 +1,9 @@
 ---
 templateKey: about-page
-title: Estudi d'arquitectura, enginyeria i interiorisme a Esterri d'Àneu
+title: Qui som?
 description: >-
-  Som un petit estudi pirinenc de disseny gràfic i comunicació que
-  donem resposta a totes aquelles necessitats d'àmbit comunicatiu que li
-  puguin sorgir a una empresa a partir de solucions gràfiques i digitals
+  Som un estudi pirinenc d'arquitectura, enginyeria i interiorisme
+  situat a Esterri d'Àneu (Pallars Sobirà)
 image: ../../static/images/02.jpg
 people:
   - title: Jordi Mestre

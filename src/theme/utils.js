@@ -6,6 +6,7 @@ import {
   VStack,
   HStack,
   Button,
+  SimpleGrid,
   GridItem,
   Image,
   Text,
@@ -97,6 +98,16 @@ export const MotionHStack = motion(
       Object.entries(props).filter(([key]) => !isValidMotionProp(key))
     )
     return <HStack ref={ref} {...chakraProps} />
+  })
+)
+
+export const MotionSimpleGrid = motion(
+  forwardRef((props, ref) => {
+    const chakraProps = Object.fromEntries(
+      // do not pass framer props to DOM element
+      Object.entries(props).filter(([key]) => !isValidMotionProp(key))
+    )
+    return <SimpleGrid ref={ref} {...chakraProps} />
   })
 )
 
