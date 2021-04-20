@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql } from "gatsby"
 import slugify from "react-slugify"
 
@@ -8,8 +8,6 @@ import {
   Image,
   Container,
   Heading,
-  VStack,
-  Text,
   Icon,
   Link,
   Spacer,
@@ -18,6 +16,10 @@ import {
 import { AddIcon } from "@chakra-ui/icons"
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
+import { useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+import { MotionFlex, motionRevealConfig } from "../theme/utils"
 
 import ReactMarkdown from "react-markdown"
 import ChakraUIRenderer from "chakra-ui-markdown-renderer"
@@ -29,6 +31,14 @@ const AboutPage = props => {
   const { image, people } = frontmatter
 
   const isSmallDevice = useBreakpointValue({ base: true, md: false })
+  const controls = useAnimation()
+  const [ref, inView] = useInView()
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible")
+    }
+  }, [controls, inView])
 
   const linkButton = title => (
     <Link
@@ -53,7 +63,8 @@ const AboutPage = props => {
         </Heading>
 
         <Flex mt={8} mb={4} direction={["column", null, "row"]}>
-          <Flex
+          <MotionFlex
+            ref={ref}
             order={[1, null, 0]}
             direction={["row", null, "column"]}
             bg="revell.500"
@@ -65,6 +76,7 @@ const AboutPage = props => {
             p={8}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
+            {...motionRevealConfig(controls, "right")}
           >
             {people.map((person, index) => (
               <>
@@ -104,7 +116,7 @@ const AboutPage = props => {
                 {index === 0 && <Spacer />}
               </>
             ))}
-          </Flex>
+          </MotionFlex>
 
           <Image
             order={[0, null, 1]}

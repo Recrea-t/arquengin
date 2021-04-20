@@ -70,7 +70,7 @@ const Header = () => {
             </MenuItem>
           </MenuList>
         </Menu>
-        <NavLink to="/#contacte" isLast>
+        <NavLink to="/contacte" isLast>
           Contacte
         </NavLink>
       </>

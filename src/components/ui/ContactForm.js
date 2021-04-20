@@ -18,8 +18,6 @@ const ContactForm = () => {
   const toast = useToast()
 
   const placeholderStyles = {
-    color: "white",
-    fontWeight: "hairline",
     textTransform: "uppercase",
   }
 
@@ -85,7 +83,7 @@ const ContactForm = () => {
                     id="name"
                     type="text"
                     variant="flushed"
-                    focusBorderColor="dimGray.500"
+                    focusBorderColor="greyishBrown.500"
                     placeholder="nom"
                     _placeholder={placeholderStyles}
                   />
@@ -109,6 +107,22 @@ const ContactForm = () => {
               )}
             </Field>
 
+            <Field name="phone">
+              {({ field, form }) => (
+                <FormControl isRequired>
+                  <Input
+                    {...field}
+                    id="phone"
+                    type="tel"
+                    variant="flushed"
+                    focusBorderColor="dimGray.500"
+                    placeholder="telèfon"
+                    _placeholder={placeholderStyles}
+                  />
+                </FormControl>
+              )}
+            </Field>
+
             <Field name="message">
               {({ field, form }) => (
                 <FormControl isRequired>
@@ -120,7 +134,6 @@ const ContactForm = () => {
                     focusBorderColor="dimGray.500"
                     placeholder="missatge"
                     _placeholder={placeholderStyles}
-                    resize="none"
                   />
                 </FormControl>
               )}
@@ -140,7 +153,7 @@ const ContactForm = () => {
                   >
                     He llegit i accepto la{" "}
                     <Link
-                      fontWeight="semibold"
+                      textTransform="uppercase"
                       to="politica-de-proteccio-de-dades"
                       title="Política de protecció de dades personals"
                       as={GatsbyLink}
@@ -158,8 +171,8 @@ const ContactForm = () => {
 
             <MotionButton
               variant="custom-link"
-              colorScheme="white"
-              alignSelf="flex-end"
+              colorScheme="revell"
+              alignSelf="flex-start"
               type="submit"
               isLoading={props.isSubmitting}
               loadingText="Enviant"
