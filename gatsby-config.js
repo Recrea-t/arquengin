@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const config = require("./site-config.json")
 
 console.log(config)
@@ -95,6 +97,14 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries"),
       },
     },
     {

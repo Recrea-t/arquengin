@@ -34,7 +34,7 @@ const Header = () => {
         <NavLink to="/projectes/">Projectes</NavLink>
         <NavLink to="/qui-som/">Qui Som</NavLink>
         <Menu gutter={0} matchWidth={true} colorScheme="revell">
-          <MenuButton as={Button} variant="nav-link" whileTap={{ scale: 0.95 }}>
+          <MenuButton as={Button} variant="nav-link">
             Serveis
           </MenuButton>
           <MenuList>

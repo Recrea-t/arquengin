@@ -7,7 +7,7 @@ function variantCustomLink(props) {
 
   if (c !== "white") {
     color = mode(`${c}.500`, `${c}.200`)(props)
-    activeColor = mode(`${c}.700`, `${c}.400`)(props)
+    activeColor = mode(`${c}.600`, `${c}.400`)(props)
   }
 
   return {

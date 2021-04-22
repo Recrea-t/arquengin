@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import {
   Box,
@@ -13,6 +13,10 @@ import {
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
+import { useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+import MotionBox, { motionRevealConfig } from "../theme/utils"
+
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -26,6 +30,15 @@ import Layout from "../components/Layout"
 
 const ProjectPage = ({ pageContext }) => {
   const { title, category, description, images } = pageContext
+
+  const controls = useAnimation()
+  const [ref, inView] = useInView()
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible")
+    }
+  }, [controls, inView])
 
   const settings = {
     className: "is-slider",
@@ -52,19 +65,21 @@ const ProjectPage = ({ pageContext }) => {
         <Text>{title}</Text>
 
         <Flex mt={8} direction={["column", null, "row"]}>
-          <Box
+          <MotionBox
+            ref={ref}
             bg="revell.500"
             w={{ base: "full", md: 1 / 3, lg: 1 / 4 }}
             maxH={images[0].src.childImageSharp.gatsbyImageData.height}
             p={8}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
+            {...motionRevealConfig(controls, "right")}
           >
             <ReactMarkdown
               components={ChakraUIRenderer()}
               children={description}
             />
-          </Box>
+          </MotionBox>
 
           <Box
             display={["none", null, "block"]}

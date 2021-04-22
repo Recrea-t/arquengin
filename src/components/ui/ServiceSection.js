@@ -46,7 +46,7 @@ const ServiceSection = props => {
       </Box>
       <Center w="full">
         <SimpleGrid
-          w={["full", null, 2 / 3]}
+          maxW="full"
           columns={[1, null, 2]}
           autoRows="min-content"
           spacing={4}

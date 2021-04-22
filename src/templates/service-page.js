@@ -86,7 +86,7 @@ const ServicePage = props => {
           <Center w="full">
             <MotionSimpleGrid
               ref={ref}
-              w={["full", null, 2 / 3]}
+              maxW="full"
               columns={[1, null, 2]}
               spacing={4}
               px={4}
