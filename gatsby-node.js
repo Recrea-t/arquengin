@@ -43,8 +43,6 @@ exports.createPages = ({ actions, graphql }) => {
                     childImageSharp {
                       gatsbyImageData(
                         width: 815
-                        aspectRatio: 1.5
-                        transformOptions: { cropFocus: CENTER }
                         placeholder: BLURRED
                         formats: [AVIF, WEBP, AUTO]
                       )

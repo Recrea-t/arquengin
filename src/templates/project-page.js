@@ -69,7 +69,7 @@ const ProjectPage = ({ pageContext }) => {
             ref={ref}
             bg="revell.500"
             w={{ base: "full", md: 1 / 3, lg: 1 / 4 }}
-            maxH={images[0].src.childImageSharp.gatsbyImageData.height}
+            maxH="542px"
             p={8}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
@@ -91,10 +91,14 @@ const ProjectPage = ({ pageContext }) => {
                 <Image
                   key={index}
                   maxW="815px"
+                  maxH="542px"
                   as={GatsbyImage}
                   loading={index === 0 ? "eager" : "lazy"}
                   image={getImage(image.src)}
                   alt={image.alt}
+                  imgStyle={{
+                    objectFit: "contain",
+                  }}
                 />
               ))}
             </Slider>

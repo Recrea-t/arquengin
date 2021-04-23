@@ -30,7 +30,7 @@ const pageQuery = `{
 
 function pageToAlgoliaRecord({ title, category, images }) {
   return {
-    objectID: slugify(title),
+    objectID: slugify(title, { lower: true }),
     title: title,
     category: category,
     image: images[0].thumbnail,

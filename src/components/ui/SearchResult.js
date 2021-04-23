@@ -24,8 +24,8 @@ const CustomHits = connectHits(({ hits }) => {
 
   return (
     <SimpleGrid columns={[1, null, 4]} spacing={8}>
-      {hits.map((project, index) => (
-        <Box key={index}>
+      {hits.map(project => (
+        <Box key={project.objectID}>
           <Link
             pos="relative"
             display="block"
@@ -38,7 +38,7 @@ const CustomHits = connectHits(({ hits }) => {
               },
             }}
             as={GatsbyLink}
-            to={`/projectes/project.slug}/`}
+            to={`/projectes/${project.objectID}/`}
             title={project.title}
           >
             <Image
