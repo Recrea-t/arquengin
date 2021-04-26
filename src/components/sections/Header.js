@@ -11,6 +11,7 @@ import {
   MenuList,
   HStack,
   useDisclosure,
+  Box,
 } from "@chakra-ui/react"
 
 import useSiteMetadata from "../siteMetadata"
@@ -43,7 +44,7 @@ const Header = () => {
                 variant="subnav-link"
                 w="full"
                 textAlign="center"
-                to="/arquitectura/"
+                to="/serveis/#arquitectura"
               >
                 Arquitectura
               </NavLink>
@@ -53,7 +54,7 @@ const Header = () => {
                 variant="subnav-link"
                 w="full"
                 textAlign="center"
-                to="/enginyeria/"
+                to="/serveis/#enginyeria"
               >
                 Enginyeria
               </NavLink>
@@ -63,7 +64,7 @@ const Header = () => {
                 variant="subnav-link"
                 w="full"
                 textAlign="center"
-                to="/interiorisme/"
+                to="/serveis/#interiorisme"
               >
                 Interiorisme
               </NavLink>
@@ -78,57 +79,67 @@ const Header = () => {
   }
 
   return (
-    <Flex
+    <Box
       as="nav"
-      h={{ base: "64px", lg: "96px" }}
       w="full"
+      h={{ base: "64px", lg: "96px" }}
       pos="fixed"
       top="0"
       right="0"
       left="0"
       zIndex="1"
-      align="center"
-      justify="space-between"
-      p={4}
-      mx="auto"
       bg="white"
       boxShadow={isOpen ? "none" : "0px 5px 9px 0 rgba(0, 0, 0, 0.74)"}
-      wrap="wrap"
     >
-      <Link
-        to="/"
-        title="Inici"
-        as={GatsbyLink}
-        display={isOpen ? "none" : "block"}
-      >
-        <StaticImage
-          src="../../images/Logo.jpg"
-          alt="Logotip Arquengin"
-          loading="eager"
-          layout="fixed"
-          formats={["auto", "webp", "avif"]}
-          placeholder="tracedSVG"
-          width={200}
-        />
-      </Link>
-
-      <ToggleMenu isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
-
       <Flex
-        display={{ base: "none", lg: "inherit" }}
+        h="full"
+        w="full"
+        maxW="1200px"
         align="center"
-        direction="row"
-        justify="flex-end"
+        justify="space-between"
+        mx="auto"
+        px={4}
+        wrap="wrap"
       >
-        <MenuItems />
-      </Flex>
+        <Link
+          display={isOpen ? "none" : "block"}
+          maxW={[200, null, "20%"]}
+          minW={200}
+          h="full"
+          to="/"
+          title="Inici"
+          as={GatsbyLink}
+        >
+          <StaticImage
+            style={{ width: "100%", height: "100%" }}
+            objectFit="contain"
+            src="../../images/Logo.jpg"
+            alt="Logotip Arquengin"
+            loading="eager"
+            layout="fixed"
+            formats={["auto", "webp", "avif"]}
+            placeholder="tracedSVG"
+          />
+        </Link>
 
-      <HStack spacing={2} display={{ base: "none", lg: "inherit" }}>
-        <SocialLink item={social.pinterest} icon={FaPinterestP} />
-        <SocialLink item={social.instagram} icon={FaInstagram} />
-        <SocialLink item={social.facebook} icon={FaFacebookF} />
-      </HStack>
-    </Flex>
+        <ToggleMenu isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
+
+        <Flex
+          display={{ base: "none", lg: "inherit" }}
+          align="center"
+          direction="row"
+          justify="flex-end"
+        >
+          <MenuItems />
+        </Flex>
+
+        <HStack spacing={2} display={{ base: "none", lg: "inherit" }}>
+          <SocialLink item={social.pinterest} icon={FaPinterestP} />
+          <SocialLink item={social.instagram} icon={FaInstagram} />
+          <SocialLink item={social.facebook} icon={FaFacebookF} />
+        </HStack>
+      </Flex>
+    </Box>
   )
 }
 

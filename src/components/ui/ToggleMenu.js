@@ -87,7 +87,7 @@ const ToggleMenu = props => {
                   <NavLink
                     variant="subnav-link"
                     ml={12}
-                    to="/arquitectura/"
+                    to="/serveis/#arquitectura"
                     onClick={handleClose}
                   >
                     Arquitectura
@@ -95,7 +95,7 @@ const ToggleMenu = props => {
                   <NavLink
                     variant="subnav-link"
                     ml={12}
-                    to="/enginyeria/"
+                    to="/serveis/#enginyeria"
                     onClick={handleClose}
                   >
                     Enginyeria
@@ -103,7 +103,7 @@ const ToggleMenu = props => {
                   <NavLink
                     variant="subnav-link"
                     ml={12}
-                    to="/interiorisme/"
+                    to="/serveis/#interiorisme"
                     onClick={handleClose}
                   >
                     Interiorisme

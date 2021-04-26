@@ -19,6 +19,7 @@ const ContactForm = () => {
 
   const placeholderStyles = {
     textTransform: "uppercase",
+    color: "greyishBrown.500",
   }
 
   const encode = data => {
@@ -99,7 +100,7 @@ const ContactForm = () => {
                     id="email"
                     type="email"
                     variant="flushed"
-                    focusBorderColor="dimGray.500"
+                    focusBorderColor="greyishBrown.500"
                     placeholder="correu electrònic"
                     _placeholder={placeholderStyles}
                   />
@@ -115,7 +116,7 @@ const ContactForm = () => {
                     id="phone"
                     type="tel"
                     variant="flushed"
-                    focusBorderColor="dimGray.500"
+                    focusBorderColor="greyishBrown.500.500"
                     placeholder="telèfon"
                     _placeholder={placeholderStyles}
                   />
@@ -131,7 +132,7 @@ const ContactForm = () => {
                     id="message"
                     variant="flushed"
                     h={40}
-                    focusBorderColor="dimGray.500"
+                    focusBorderColor="greyishBrown.500.500"
                     placeholder="missatge"
                     _placeholder={placeholderStyles}
                   />
@@ -149,7 +150,7 @@ const ContactForm = () => {
                     {...field}
                     id="conditions"
                     size="sm"
-                    colorScheme="dimGray"
+                    colorScheme="greyishBrown.500"
                   >
                     He llegit i accepto la{" "}
                     <Link

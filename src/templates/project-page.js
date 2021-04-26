@@ -9,13 +9,16 @@ import {
   VStack,
   Text,
   Icon,
+  Spacer,
+  Link,
 } from "@chakra-ui/react"
 
+import { Link as GatsbyLink } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import { useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import MotionBox, { motionRevealConfig } from "../theme/utils"
+import { MotionFlex, motionRevealConfig } from "../theme/utils"
 
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -39,6 +42,20 @@ const ProjectPage = ({ pageContext }) => {
       controls.start("visible")
     }
   }, [controls, inView])
+
+  const projectsButton = (
+    <Link
+      variant="button"
+      colorScheme="white"
+      display="block"
+      w="fit-content"
+      as={GatsbyLink}
+      to="/projectes/"
+      title="Els nostres projectes"
+    >
+      projectes
+    </Link>
+  )
 
   const settings = {
     className: "is-slider",
@@ -65,11 +82,12 @@ const ProjectPage = ({ pageContext }) => {
         <Text>{title}</Text>
 
         <Flex mt={8} direction={["column", null, "row"]}>
-          <MotionBox
+          <MotionFlex
             ref={ref}
+            direction="column"
             bg="revell.500"
             w={{ base: "full", md: 1 / 3, lg: 1 / 4 }}
-            maxH="542px"
+            maxH={images[0].src.childImageSharp.gatsbyImageData.height}
             p={8}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
@@ -79,7 +97,13 @@ const ProjectPage = ({ pageContext }) => {
               components={ChakraUIRenderer()}
               children={description}
             />
-          </MotionBox>
+
+            <Spacer />
+
+            <Box w="full" textAlign={["center", null, "left"]}>
+              {projectsButton}
+            </Box>
+          </MotionFlex>
 
           <Box
             display={["none", null, "block"]}
@@ -90,14 +114,15 @@ const ProjectPage = ({ pageContext }) => {
               {images.map((image, index) => (
                 <Image
                   key={index}
-                  maxW="815px"
-                  maxH="542px"
+                  h="full"
+                  maxH={images[0].src.childImageSharp.gatsbyImageData.height}
                   as={GatsbyImage}
                   loading={index === 0 ? "eager" : "lazy"}
                   image={getImage(image.src)}
                   alt={image.alt}
                   imgStyle={{
                     objectFit: "contain",
+                    objectPosition: "center",
                   }}
                 />
               ))}

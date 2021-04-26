@@ -40,7 +40,9 @@ const ServiceSection = props => {
 
   return (
     <>
-      <Heading size="lg">{title}</Heading>
+      <Heading as="h3" size="md" fontFamily="Roboto" fontWeight="bold">
+        {title}
+      </Heading>
       <Box w="full" my={4}>
         <ReactMarkdown components={ChakraUIRenderer()} children={description} />
       </Box>

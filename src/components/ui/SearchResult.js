@@ -30,7 +30,6 @@ const CustomHits = connectHits(({ hits }) => {
             pos="relative"
             display="block"
             h={{ base: "auto", md: "full" }}
-            ml={{ base: 4, md: 0 }}
             _hover={{
               ".thumbnail-description": {
                 visibility: "visible",
@@ -91,15 +90,6 @@ const CustomHits = connectHits(({ hits }) => {
         </Box>
       ))}
     </SimpleGrid>
-  )
-})
-
-const HitCount = connectStateResults(({ searchResults }) => {
-  const hitCount = searchResults && searchResults.nbHits
-  return (
-    <Text fontSize="sm" textAlign="end">
-      {hitCount} projecte{hitCount !== 1 ? `s` : ``}
-    </Text>
   )
 })
 

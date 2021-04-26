@@ -71,6 +71,7 @@ const ContactPage = props => {
             p={8}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
+            spacing={8}
             {...motionRevealConfig(controls, "right")}
           >
             <Box
@@ -105,8 +106,13 @@ const ContactPage = props => {
                 </Link>
               </Text>
             </Box>
-            <Spacer />
-            <Box w="full">
+            <Box
+              w="full"
+              textAlign={{
+                base: "center",
+                md: "left",
+              }}
+            >
               <ReactMarkdown
                 components={ChakraUIRenderer()}
                 children={frontmatter.text}

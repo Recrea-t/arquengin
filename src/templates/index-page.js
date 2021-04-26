@@ -23,21 +23,21 @@ const IndexPage = props => {
             title="Arquitectura"
             items={frontmatter.arquitectura}
             className="is-arquitectura"
-            to="/arquitectura/"
+            to="/serveis/#arquitectura"
           />
           <ServiceCard
             index={1}
             title="Enginyeria"
             items={frontmatter.enginyeria}
             className="is-enginyeria"
-            to="/enginyeria/"
+            to="/serveis/#enginyeria"
           />
           <ServiceCard
             index={2}
             title="Interiorisme"
             items={frontmatter.interiorisme}
             className="is-interiorisme"
-            to="/interiorisme/"
+            to="/serveis/#interiorisme"
           />
         </SimpleGrid>
       </Container>

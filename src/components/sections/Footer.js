@@ -27,25 +27,27 @@ const Footer = props => {
       <VStack
         align="center"
         justify="center"
-        w="full"
-        p={{ base: 4, lg: 8 }}
         spacing={4}
+        w="full"
         maxWidth="1200px"
         mx="auto"
+        px={4}
+        py={{ base: 4, lg: 8 }}
         {...props}
       >
         <Flex
           w="full"
-          direction={["column", null, "row"]}
-          justify="space-evenly"
+          direction={{ base: "column", lg: "row" }}
+          justify="space-between"
           textAlign="center"
           mb={{ base: 0, lg: 4 }}
+          px={{ base: 0, lg: 4 }}
         >
-          <Box>
+          <Box minW="310px">
             <Icon as={FaMapMarkerAlt} h={4} w={4} />
             <Text dangerouslySetInnerHTML={{ __html: organization.address }} />
           </Box>
-          <Box>
+          <Box minW="310px">
             <Icon as={FaPhoneAlt} h={4} w={4} />
             <Text>
               OFICINA:{" "}
@@ -69,7 +71,7 @@ const Footer = props => {
               </Link>
             </Text>
           </Box>
-          <Box>
+          <Box minW="310px">
             <Icon as={FaEnvelope} h={4} w={4} />
             <Text>
               <Link href={`mailto:${organization.email}`} title="Escriu-nos">
@@ -88,14 +90,15 @@ const Footer = props => {
         <Flex
           w="full"
           direction={["column", null, "row"]}
-          justify="space-evenly"
           textAlign="center"
+          justify="space-around"
           fontWeight="light"
           mt={{ base: 0, lg: 4 }}
         >
           <Text display={["block", null, "none"]}>
             {props.title} {new Date().getFullYear()}
           </Text>
+
           <HStack spacing={2} divider={<StackDivider />} justify="center">
             {isNotSmallDevice && (
               <Text>
@@ -113,6 +116,7 @@ const Footer = props => {
               Política de protecció de dades
             </Link>
           </HStack>
+
           <Text>
             DISSENY:{" "}
             <Link

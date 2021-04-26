@@ -19,6 +19,7 @@ const ClearButton = connectCurrentRefinements(({ items, refine }) => (
   <Button
     variant="custom-link"
     colorScheme="revell"
+    py={1}
     onClick={event => {
       event.preventDefault()
       refine(items)
@@ -53,6 +54,7 @@ const SearchButtons = ({ currentRefinement, refine }) => {
           key={item}
           variant="custom-link"
           colorScheme="revell"
+          py={1}
           onClick={event => {
             event.preventDefault()
             refine(item)
