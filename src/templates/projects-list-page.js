@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import { Container, Heading, Box } from "@chakra-ui/react"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../utils/ChakraUIRenderer"
 
 import Layout from "../components/Layout"
 import Search from "../components/sections/Search"

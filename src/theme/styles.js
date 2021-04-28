@@ -6,6 +6,11 @@ const styles = {
     body: {
       color: "nightRider.500",
     },
+    ".markdown": {
+      li: {
+        margin: "0 !important",
+      },
+    },
     ".markdown-blockquote": {
       p: {
         padding: ".5rem",

@@ -22,7 +22,7 @@ import { useInView } from "react-intersection-observer"
 import { MotionFlex, motionRevealConfig } from "../theme/utils"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../utils/ChakraUIRenderer"
 
 import Layout from "../components/Layout"
 
@@ -73,7 +73,7 @@ const AboutPage = props => {
               base: "auto",
               md: image.childImageSharp.gatsbyImageData.height,
             }}
-            p={8}
+            p={4}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
             {...motionRevealConfig(controls, "right")}

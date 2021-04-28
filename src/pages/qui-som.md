@@ -3,7 +3,7 @@ templateKey: about-page
 title: Qui som?
 description: Som un estudi pirinenc d'arquitectura, enginyeria i interiorisme
   situat a Esterri d'Àneu (Pallars Sobirà)
-image: ../../static/images/02.jpg
+image: ../../static/images/AlbaJordi.jpg
 people:
   - title: Jordi Mestre
     summary: |-

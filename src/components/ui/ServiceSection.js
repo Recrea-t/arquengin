@@ -8,13 +8,12 @@ import {
   Heading,
   Link,
   Text,
-  Tooltip,
   HStack,
   VStack,
 } from "@chakra-ui/react"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 const ServiceSection = props => {
   const { title, description, list, className } = props
@@ -64,17 +63,15 @@ const ServiceSection = props => {
               alignItems="flex-start"
               gridRowEnd={item.links ? "span 2" : "auto"}
             >
-              <Tooltip label={item} aria-label="a tooltip">
-                <Text
-                  px={2}
-                  w="fit-content"
-                  maxW="100%"
-                  maxH="fit-content"
-                  className={className}
-                >
-                  {item.title}
-                </Text>
-              </Tooltip>
+              <Text
+                px={2}
+                w="fit-content"
+                maxW="100%"
+                maxH="fit-content"
+                className={className}
+              >
+                {item.title}
+              </Text>
               {item.links && (
                 <HStack w="full" wrap="wrap" spacing={2}>
                   {item.links.map(linkButton)}

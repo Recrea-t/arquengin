@@ -26,7 +26,7 @@ import prevArrow from "../images/prevArrow.svg"
 import nextArrow from "../images/nextArrow.svg"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../utils/ChakraUIRenderer"
 
 import Layout from "../components/Layout"
 
@@ -48,6 +48,7 @@ const ProjectPage = ({ pageContext }) => {
       colorScheme="white"
       display="block"
       w="fit-content"
+      mx={{ base: "auto", md: "0" }}
       as={GatsbyLink}
       to="/projectes/"
       title="Els nostres projectes"
@@ -83,7 +84,7 @@ const ProjectPage = ({ pageContext }) => {
             bg="revell.500"
             w={{ base: "full", md: 1 / 3, lg: 1 / 4 }}
             maxH={images[0].src.childImageSharp.gatsbyImageData.height}
-            p={8}
+            p={4}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
             {...motionRevealConfig(controls, "right")}
@@ -95,7 +96,7 @@ const ProjectPage = ({ pageContext }) => {
 
             <Spacer />
 
-            <Box w="full" textAlign={["center", null, "left"]}>
+            <Box w="full" pt={4}>
               {projectsButton}
             </Box>
           </MotionFlex>

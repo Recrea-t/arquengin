@@ -19,7 +19,7 @@ import { useInView } from "react-intersection-observer"
 import { MotionVStack, motionRevealConfig } from "../theme/utils"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../utils/ChakraUIRenderer"
 
 import Layout from "../components/Layout"
 
@@ -68,7 +68,7 @@ const ContactPage = props => {
             order={[1, null, 0]}
             bg="revell.500"
             w={{ base: "full", md: 1 / 3, lg: 1 / 4 }}
-            p={8}
+            p={4}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
             spacing={8}

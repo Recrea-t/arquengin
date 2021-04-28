@@ -10,7 +10,6 @@ import {
   Text,
   Flex,
   Spacer,
-  Tooltip,
   useBreakpointValue,
 } from "@chakra-ui/react"
 
@@ -19,7 +18,7 @@ import { useInView } from "react-intersection-observer"
 import { MotionSimpleGrid, motionRevealConfig } from "../../theme/utils"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 import ServiceSection from "../ui/ServiceSection"
 
@@ -95,17 +94,15 @@ const Service = service => {
             {...motionRevealConfig(controls, "right")}
           >
             {service.list.map((item, index) => (
-              <Tooltip label={item} aria-label="a tooltip">
-                <Text
-                  key={index}
-                  px={2}
-                  w="fit-content"
-                  maxW="100%"
-                  className={service.className}
-                >
-                  {item}
-                </Text>
-              </Tooltip>
+              <Text
+                key={index}
+                px={2}
+                w="fit-content"
+                maxW="100%"
+                className={service.className}
+              >
+                {item}
+              </Text>
             ))}
           </MotionSimpleGrid>
         </Center>
