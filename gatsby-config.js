@@ -113,6 +113,7 @@ module.exports = {
         metricoolId: process.env.METRICOOL_ID,
       },
     },
+    "gatsby-plugin-netlify-cms",
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {

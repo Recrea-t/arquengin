@@ -48,19 +48,13 @@ const Hero = props => {
             >
               <Text>
                 d'
-                <span className="hero-with-sized-border is-arquitectura">
-                  arquitectura
-                </span>
+                <span>arquitectura</span>
               </Text>
               <Text>
-                <span className="hero-with-sized-border is-enginyeria">
-                  enginyeria
-                </span>
+                <span>enginyeria</span>
               </Text>
               <Text>
-                <span className="hero-with-sized-border is-interiorisme">
-                  interiorisme
-                </span>
+                <span>interiorisme</span>
               </Text>
             </Flex>
           </Heading>
@@ -70,7 +64,7 @@ const Hero = props => {
         pos="absolute"
         left="calc(50% - 4rem)"
         bottom={8}
-        variant="button"
+        variant="inversed-button"
         colorScheme="white"
         as={GatsbyLink}
         to="/projectes/"

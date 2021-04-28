@@ -1,12 +1,14 @@
 ---
 templateKey: projects-list-page
 title: Projectes les Valls d'Àneu
-description: >-
-  Tenim una àmplia experiència al Pallars Sobirà desenvolupant projectes
-  de disseny i rehabilitació d'habitatges així com espais comercials
-text: |-
-  El desenvolupament d'un projecte per la vostra empresa o llar és sempre un treball complex.
+description: Tenim una àmplia experiència al Pallars Sobirà desenvolupant
+  projectes de disseny i rehabilitació d'habitatges així com espais comercials
+text: >-
+  El desenvolupament d'un projecte per la vostra empresa o llar és sempre un
+  treball complex.
+
   Nosaltres ho gestionem amb eficàcia i rapidesa.
+
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
@@ -19,26 +21,25 @@ projectes:
 
       **Localització:** Isil
     images:
-      - src: ../../static/images/latona/BarGeneral.jpg
+      - src: /images/projectes/BarGeneral.jpg
         alt: Vista general
-      - src: ../../static/images/latona/Bodega.jpg
+      - src: /images/projectes/Bodega.jpg
         alt: Bodega
-      - src: ../../static/images/latona/Barra.jpg
+      - src: /images/projectes/Barra.jpg
         alt: Barra
-      - src: ../../static/images/latona/Raco.jpg
+      - src: /images/projectes/Raco.jpg
         alt: Racó
-      - src: ../../static/images/latona/TaulaTona.jpg
+      - src: /images/projectes/TaulaTona.jpg
         alt: Taula
   - title: Title
-    category: rehabilitacio
+    category: rehabilitació
     description: |-
       Com evident *experiència* mostra, la debilitat de la nostra memòria
       sotsmetent fàcilment a oblivió no solament los actes per longitud
       de temps envellits, mas encara los **actes frescs de nostres dies**.
     images:
-      - src: ../../static/images/01.jpg
+      - src: /images/projectes/01.jpg
         alt: Caption 1
-      - src: ../../static/images/02.jpg
+      - src: /images/projectes/02.jpg
         alt: Caption 2
-
 ---

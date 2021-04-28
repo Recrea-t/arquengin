@@ -1,5 +1,51 @@
 import { mode } from "@chakra-ui/theme-tools"
 
+function variantInversedButton(props) {
+  const { colorScheme: c } = props
+  let color = "white",
+    activeColor = "greyishBrown.500"
+
+  if (c !== "white") {
+    color = mode(`${c}.500`, `${c}.200`)(props)
+    activeColor = mode(`${c}.700`, `${c}.400`)(props)
+  }
+
+  return {
+    color: color,
+    textTransform: "uppercase",
+    height: "auto",
+    width: "auto",
+    p: 2,
+    bg: "transparent",
+    border: `6px solid`,
+    borderRadius: "none",
+    borderColor: color,
+    transition: "background .5s linear",
+    _hover: {
+      bg: color,
+      color: activeColor,
+      textDecoration: "none",
+      _disabled: {
+        bg: color,
+        color: activeColor,
+        textDecoration: "none",
+      },
+    },
+    _focus: {
+      boxShadow: "none",
+      bg: color,
+      color: activeColor,
+      textDecoration: "none",
+    },
+    _active: {
+      bg: color,
+      color: activeColor,
+      borderColor: activeColor,
+      textDecoration: "none",
+    },
+  }
+}
+
 function variantButton(props) {
   const { colorScheme: c } = props
   let color = "white",
@@ -52,6 +98,7 @@ export default {
   },
   variants: {
     button: variantButton,
+    "inversed-button": variantInversedButton,
     "nav-link": {
       fontSize: { base: "3xl", lg: "md" },
       fontWeight: { base: "normal", lg: "bold" },

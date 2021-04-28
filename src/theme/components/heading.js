@@ -14,6 +14,7 @@ export default {
       lineHeight: 1.37,
       color: "#ffffff",
       textAlign: "center",
+      textShadow: "3px 3px 8px rgba(0,0,0,0.89)",
     },
   },
   defaultProps: {

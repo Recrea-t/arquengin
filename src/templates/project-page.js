@@ -8,7 +8,6 @@ import {
   Heading,
   VStack,
   Text,
-  Icon,
   Spacer,
   Link,
 } from "@chakra-ui/react"
@@ -23,8 +22,8 @@ import { MotionFlex, motionRevealConfig } from "../theme/utils"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import { MdKeyboardArrowLeft } from "@react-icons/all-files/md/MdKeyboardArrowLeft"
-import { MdKeyboardArrowRight } from "@react-icons/all-files/md/MdKeyboardArrowRight"
+import prevArrow from "../images/prevArrow.svg"
+import nextArrow from "../images/nextArrow.svg"
 
 import ReactMarkdown from "react-markdown"
 import ChakraUIRenderer from "chakra-ui-markdown-renderer"
@@ -64,12 +63,8 @@ const ProjectPage = ({ pageContext }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: (
-      <Icon as={MdKeyboardArrowLeft} w={10} h={16} color="revell.500" />
-    ),
-    nextArrow: (
-      <Icon as={MdKeyboardArrowRight} w={10} h={16} color="revell.500" />
-    ),
+    prevArrow: <Image src={prevArrow} alt="previous arrow" h="64px" w="37px" />,
+    nextArrow: <Image src={nextArrow} alt="next arrow" h="64px" w="37px" />,
   }
 
   return (
@@ -108,7 +103,7 @@ const ProjectPage = ({ pageContext }) => {
           <Box
             display={["none", null, "block"]}
             w={{ md: 2 / 3, lg: 3 / 4 }}
-            px="25px"
+            px="37px"
           >
             <Slider {...settings}>
               {images.map((image, index) => (
