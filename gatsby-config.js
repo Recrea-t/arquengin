@@ -29,7 +29,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#E8864B`,
         display: `minimal-ui`,
-        icon: "static/images/icon.png",
+        icon: "static/images/icon.svg",
         icon_options: {
           purpose: `any maskable`,
         },
