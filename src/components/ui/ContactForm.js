@@ -110,13 +110,13 @@ const ContactForm = () => {
 
             <Field name="phone">
               {({ field, form }) => (
-                <FormControl isRequired>
+                <FormControl>
                   <Input
                     {...field}
                     id="phone"
                     type="tel"
                     variant="flushed"
-                    focusBorderColor="greyishBrown.500.500"
+                    focusBorderColor="greyishBrown.500"
                     placeholder="telèfon"
                     _placeholder={placeholderStyles}
                   />
@@ -132,7 +132,7 @@ const ContactForm = () => {
                     id="message"
                     variant="flushed"
                     h={40}
-                    focusBorderColor="greyishBrown.500.500"
+                    focusBorderColor="greyishBrown.500"
                     placeholder="missatge"
                     _placeholder={placeholderStyles}
                   />
@@ -150,7 +150,7 @@ const ContactForm = () => {
                     {...field}
                     id="conditions"
                     size="sm"
-                    colorScheme="greyishBrown.500"
+                    colorScheme="greyishBrown"
                   >
                     He llegit i accepto la{" "}
                     <Link
