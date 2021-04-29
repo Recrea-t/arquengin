@@ -19,4 +19,5 @@ interiorisme:
   - Habitatge
   - Venda de mobiliari
   - Materials de construcció
+  - Il·luminació
 ---
