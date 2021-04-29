@@ -49,12 +49,6 @@ services:
 
       En espais privats són importants les sensacions i valors com a reflex del caràcter individual. La prioritat de l'espai vital, la comoditat, l'estatus, el sentit estètic com a mitjans de comunicació interpersonal, són atributs que ajudem a visualitzar mitjançant la nostra arquitectura d'interiors.
     list:
-      - Projectes industrials
-      - Projectes de Naus industrials
-      - Projectes de Granges
-      - Projectes d'obertura i legalització d'activitats
-      - Projectes i estudis de seguretat i salut
-      - Coordinació de seguretat i salut
       - Disseny d'habitatges i espais per a l'hàbitat
       - Disseny d'espais comercials
       - Disseny d'espais culturals i per a l'oci
