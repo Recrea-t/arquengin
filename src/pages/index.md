@@ -1,8 +1,7 @@
 ---
 templateKey: index-page
-title: Estudi d'arquitectura, enginyeria i interiorisme a Esterri d'Àneu
-description: >-
-  Oferim diversos serveis al cor del Pallars Sobirà
+title: Arquitectura, enginyeria i interiorisme a Esterri d'Àneu
+description: Oferim diversos serveis al cor del Pallars Sobirà
 hero: ../../static/images/hero.jpg
 arquitectura:
   - Reformes integrals
@@ -18,5 +17,4 @@ interiorisme:
   - Habitatge
   - Venda de mobiliari
   - Materials de construcció
-
 ---
