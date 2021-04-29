@@ -1,8 +1,8 @@
 ---
 templateKey: projects-list-page
-title: Projectes les Valls d'Àneu
-description: Tenim una àmplia experiència al Pallars Sobirà desenvolupant
-  projectes de disseny i rehabilitació d'habitatges així com espais comercials
+title: Projectes d'arquitectura, enginyeria i interiorisme
+description: Tenim una àmplia experiència arreu de Catalunya desenvolupant
+  projectes de disseny i rehabilitació d'habitatges així com espais comercials.
 text: >-
   El desenvolupament d'un projecte per la vostra empresa o llar és sempre un
   treball complex.
