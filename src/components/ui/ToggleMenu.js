@@ -15,7 +15,7 @@ import NavLink from "../ui/NavLink"
 import SocialLink from "../ui/SocialLink"
 import useSiteMetadata from "../siteMetadata"
 
-import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF"
+import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn"
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
 import { FaPinterestP } from "@react-icons/all-files/fa/FaPinterestP"
 
@@ -117,7 +117,7 @@ const ToggleMenu = props => {
               <HStack spacing={4} alignSelf="center" pt={20}>
                 <SocialLink item={social.pinterest} icon={FaPinterestP} />
                 <SocialLink item={social.instagram} icon={FaInstagram} />
-                <SocialLink item={social.facebook} icon={FaFacebookF} />
+                <SocialLink item={social.linkedin} icon={FaLinkedinIn} />
               </HStack>
             </VStack>
           </DrawerBody>

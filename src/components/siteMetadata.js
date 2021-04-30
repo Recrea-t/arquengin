@@ -34,7 +34,7 @@ const useSiteMetadata = () => {
                 title
                 baseUrl
               }
-              facebook {
+              linkedin {
                 username
                 title
                 baseUrl

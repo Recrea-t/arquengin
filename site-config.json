@@ -32,10 +32,10 @@
       "title": "Segueix-nos a Instagram",
       "baseUrl": "https://www.instagram.com/"
     },
-    "facebook": {
+    "linkedin": {
       "username": "arquengin",
-      "title": "Segueix-nos a Facebook",
-      "baseUrl": "https://www.facebook.com/"
+      "title": "Segueix-nos a Linkedin",
+      "baseUrl": "https://www.linkedin.com/in/"
     }
   }
 }
