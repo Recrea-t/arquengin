@@ -31,10 +31,11 @@ const ContactForm = () => {
   return (
     <Formik
       initialValues={{
-        name: "",
+        nom: "",
         email: "",
-        message: "",
-        conditions: false,
+        telefon: "",
+        missatge: "",
+        condicions: false,
       }}
       onSubmit={(values, actions) => {
         fetch("/", {
@@ -60,8 +61,8 @@ const ContactForm = () => {
       }}
       validate={values => {
         const errors = {}
-        if (!values.conditions) {
-          errors.conditions = "Has d'acceptar la política de privacitat."
+        if (!values.condicions) {
+          errors.condicions = "Has d'acceptar la política de privacitat."
         }
         return errors
       }}
@@ -76,12 +77,12 @@ const ContactForm = () => {
           <Field type="hidden" name="bot-field" />
 
           <VStack spacing={4}>
-            <Field name="name">
+            <Field name="nom">
               {({ field, form }) => (
                 <FormControl isRequired>
                   <Input
                     {...field}
-                    id="name"
+                    id="nom"
                     type="text"
                     variant="flushed"
                     focusBorderColor="greyishBrown.500"
@@ -108,12 +109,12 @@ const ContactForm = () => {
               )}
             </Field>
 
-            <Field name="phone">
+            <Field name="telefon">
               {({ field, form }) => (
                 <FormControl>
                   <Input
                     {...field}
-                    id="phone"
+                    id="telefon"
                     type="tel"
                     variant="flushed"
                     focusBorderColor="greyishBrown.500"
@@ -124,12 +125,12 @@ const ContactForm = () => {
               )}
             </Field>
 
-            <Field name="message">
+            <Field name="missatge">
               {({ field, form }) => (
                 <FormControl isRequired>
                   <Textarea
                     {...field}
-                    id="message"
+                    id="missatge"
                     variant="flushed"
                     h={40}
                     focusBorderColor="greyishBrown.500"
@@ -140,15 +141,15 @@ const ContactForm = () => {
               )}
             </Field>
 
-            <Field name="conditions">
+            <Field name="condicions">
               {({ field, form }) => (
                 <FormControl
                   isRequired
-                  isInvalid={form.errors.conditions && form.touched.conditions}
+                  isInvalid={form.errors.condicions && form.touched.condicions}
                 >
                   <Checkbox
                     {...field}
-                    id="conditions"
+                    id="condicions"
                     size="sm"
                     colorScheme="greyishBrown"
                   >
@@ -165,7 +166,7 @@ const ContactForm = () => {
                     l'enviament d'informació que respongui a la consulta que he
                     plantejat.
                   </Checkbox>
-                  <FormErrorMessage>{form.errors.conditions}</FormErrorMessage>
+                  <FormErrorMessage>{form.errors.condicions}</FormErrorMessage>
                 </FormControl>
               )}
             </Field>
