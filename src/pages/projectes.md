@@ -31,15 +31,4 @@ projectes:
         alt: Racó
       - src: /images/projectes/TaulaTona.jpg
         alt: Taula
-  - title: Title
-    category: rehabilitació
-    description: |-
-      Com evident *experiència* mostra, la debilitat de la nostra memòria
-      sotsmetent fàcilment a oblivió no solament los actes per longitud
-      de temps envellits, mas encara los **actes frescs de nostres dies**.
-    images:
-      - src: /images/projectes/01.jpg
-        alt: Caption 1
-      - src: /images/projectes/02.jpg
-        alt: Caption 2
 ---
