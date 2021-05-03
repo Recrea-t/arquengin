@@ -12,6 +12,12 @@ text: >-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+  - title: Burguerplatz
+    category: espai comercial
+    description: Hamburgueseria ubicada a Espot
+    images:
+      - alt: Menjador
+        src: ../../static/images/projectes/_jb12309.jpg
   - title: Bar Bodega La Tona
     category: espai comercial
     description: |-
