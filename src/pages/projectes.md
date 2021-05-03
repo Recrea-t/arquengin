@@ -18,6 +18,8 @@ projectes:
     images:
       - alt: Menjador
         src: ../../static/images/projectes/_jb12309.jpg
+      - src: ../../static/images/projectes/_jb12337.jpg
+        alt: Menjador
   - title: Bar Bodega La Tona
     category: espai comercial
     description: |-
