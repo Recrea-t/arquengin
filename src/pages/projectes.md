@@ -12,12 +12,6 @@ text: >-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
-  - title: Prova David
-    category: habitatge
-    description: Això és un prova
-    images:
-      - alt: text
-        src: ../../static/images/projectes/01.jpg
   - title: Bar Bodega La Tona
     category: espai comercial
     description: |-
