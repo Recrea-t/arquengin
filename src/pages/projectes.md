@@ -12,7 +12,7 @@ text: >-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
-  - title: Burguerplatz
+  - title: Burgerplatz
     category: espai comercial
     description: Hamburgueseria ubicada a Espot
     images:
