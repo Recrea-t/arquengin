@@ -39,15 +39,6 @@ exports.createPages = ({ actions, graphql }) => {
                 category
                 images {
                   alt
-                  src {
-                    childImageSharp {
-                      gatsbyImageData(
-                        width: 733
-                        placeholder: BLURRED
-                        formats: [AVIF, WEBP, AUTO]
-                      )
-                    }
-                  }
                 }
               }
             }
@@ -83,9 +74,9 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
 
-      if (slug === "/projectes/") {
-        createProjectPages(actions, edge.node.frontmatter.projectes)
-      }
+      //if (slug === "/projectes/") {
+      //createProjectPages(actions, edge.node.frontmatter.projectes)
+      //}
     })
   })
 }
