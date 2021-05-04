@@ -199,11 +199,13 @@ collections:
                     - label: Text alternatiu
                       name: alt
                       widget: string
+                      required: false
+                      default: "imatge"
                     - label: Imatge
                       name: src
                       widget: image
                       media_folder: "../../static/images/projectes/"
-                      allow_multiple: false
+                      allow_multiple: true
         - name: 'contact'
           label: 'Contacte'
           file: 'src/pages/contacte.md'
