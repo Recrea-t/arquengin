@@ -12,6 +12,12 @@ text: >-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+  - title: Prova
+    category: habitatge
+    description: És una **prova**.
+    images:
+      - alt: imatge
+        src: /images/_jb19011.jpg
   - title: Burgerplatz
     category: espai comercial
     description: Hamburgueseria ubicada a Espot
