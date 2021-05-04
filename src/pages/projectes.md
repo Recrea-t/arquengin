@@ -17,14 +17,14 @@ projectes:
     description: Hamburgueseria ubicada a Espot
     images:
       - alt: Menjador
-        src: ../../static/images/projectes/_jb12309.jpg
-      - src: ../../static/images/projectes/_jb12315.jpg
+        src: /images/_jb12309.jpg
+      - src: /images/_jb12315.jpg
         alt: Menjador
-      - src: ../../static/images/projectes/_jb12337.jpg
+      - src: /images/_jb12337.jpg
         alt: Barra
-      - src: ../../static/images/projectes/_jb12289.jpg
+      - src: /images/_jb12289.jpg
         alt: Saleta
-      - src: ../../static/images/projectes/_jb12310.jpg
+      - src: /images/_jb12310.jpg
         alt: Menjador
   - title: Bar Bodega La Tona
     category: espai comercial
@@ -35,14 +35,14 @@ projectes:
 
       **Localització:** Isil
     images:
-      - src: /images/projectes/BarGeneral.jpg
+      - src: /images/BarGeneral.jpg
         alt: Vista general
-      - src: /images/projectes/Bodega.jpg
+      - src: /images/Bodega.jpg
         alt: Bodega
-      - src: /images/projectes/Barra.jpg
+      - src: /images/Barra.jpg
         alt: Barra
-      - src: /images/projectes/Raco.jpg
+      - src: /images/Raco.jpg
         alt: Racó
-      - src: /images/projectes/TaulaTona.jpg
+      - src: /images/TaulaTona.jpg
         alt: Taula
 ---

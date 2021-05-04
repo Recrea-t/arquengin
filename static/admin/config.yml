@@ -204,7 +204,6 @@ collections:
                     - label: Imatge
                       name: src
                       widget: image
-                      media_folder: "../../static/images/projectes/"
                       allow_multiple: true
         - name: 'contact'
           label: 'Contacte'
