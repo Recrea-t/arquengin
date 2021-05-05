@@ -31,3 +31,5 @@ fields:
   label: Interiorisme
   config:
     min: 1
+pages:
+- src/pages/index.md

@@ -48,3 +48,5 @@ fields:
     min: 1
     max: 2
     labelField: title
+pages:
+- src/pages/qui-som.md
