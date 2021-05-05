@@ -97,3 +97,5 @@ fields:
   config:
     min: 3
     max: 3
+pages:
+- src/pages/serveis.md
