@@ -9,6 +9,15 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+- title: Burgerplatz
+  category: espai comercial
+  description: Hamburgueseria a Espot.
+  images:
+  - "/images/_jb12384.JPG"
+  - "/images/_jb12337.JPG"
+  - "/images/_jb12315.JPG"
+  - "/images/_jb12310.JPG"
+  - "/images/_jb12289.JPG"
 - title: Habitatge
   category: " habitatge"
   description: "**Localització:** Esterri d'Àneu"
