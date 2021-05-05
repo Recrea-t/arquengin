@@ -1,0 +1,39 @@
+---
+label: projectes
+hide_body: true
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: textarea
+  name: text
+  label: text
+- type: field_group_list
+  name: projectes
+  label: projectes
+  fields:
+  - type: text
+    name: category
+    label: category
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: field_group_list
+    name: images
+    label: images
+    fields:
+    - type: text
+      name: alt
+      label: alt
+    - type: file
+      name: src
+      label: src
