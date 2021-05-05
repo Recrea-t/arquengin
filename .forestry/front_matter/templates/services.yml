@@ -47,7 +47,7 @@ fields:
       min: 1
   - type: field_group_list
     name: sections
-    label: SeccionsExtra
+    label: Seccions Extra
     fields:
     - type: text
       name: title
@@ -69,18 +69,31 @@ fields:
         use_select: false
         min: 1
       fields:
+      - type: text
+        name: title
+        label: Ítem
+        config:
+          required: true
+      - type: field_group_list
+        name: links
+        label: Enllaços
+        fields:
         - type: text
           name: title
-          label: Títol
+          label: Nom
           config:
             required: true
-        - type: field_group_list
-          name: links
-          label: Enllaços
-          fields:
-            - type: text
-              name: title
-              label: Nom
+        - name: url
+          type: text
+          config:
+            required: true
+            min: 15
+          label: URL
+          default: https://
+        config:
+          labelField: title
+    config:
+      labelField: title
   config:
     min: 3
     max: 3
