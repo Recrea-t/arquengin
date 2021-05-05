@@ -45,6 +45,42 @@ fields:
     config:
       use_select: false
       min: 1
+  - type: field_group_list
+    name: sections
+    label: SeccionsExtra
+    fields:
+    - type: text
+      name: title
+      label: Títol
+      config:
+        required: true
+    - type: textarea
+      name: description
+      label: Descripció
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
+        required: true
+    - type: field_group_list
+      name: list
+      label: Llistat
+      config:
+        use_select: false
+        min: 1
+      fields:
+        - type: text
+          name: title
+          label: Títol
+          config:
+            required: true
+        - type: field_group_list
+          name: links
+          label: Enllaços
+          fields:
+            - type: text
+              name: title
+              label: Nom
   config:
     min: 3
     max: 3
