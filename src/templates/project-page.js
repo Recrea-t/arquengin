@@ -115,7 +115,7 @@ const ProjectPage = ({ pageContext }) => {
                   as={GatsbyImage}
                   loading={index === 0 ? "eager" : "lazy"}
                   image={getImage(image.src)}
-                  alt={image.alt}
+                  alt={image.alt || " "}
                   imgStyle={{
                     objectFit: "contain",
                     objectPosition: "center",

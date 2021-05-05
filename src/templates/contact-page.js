@@ -9,7 +9,6 @@ import {
   Heading,
   Text,
   Link,
-  Spacer,
   useBreakpointValue,
   AspectRatio,
 } from "@chakra-ui/react"
