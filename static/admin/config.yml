@@ -3,7 +3,7 @@ backend:
     repo: recrea-t/arquengin
     branch: main
 
-local_backend: true
+#local_backend: true
 
 media_folder: static/images
 public_folder: /images
@@ -204,7 +204,6 @@ collections:
                     - label: Imatge
                       name: src
                       widget: image
-                      allow_multiple: true
         - name: 'contact'
           label: 'Contacte'
           file: 'src/pages/contacte.md'
