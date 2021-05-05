@@ -5,35 +5,60 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Títol (SEO)
+  config:
+    required: true
 - type: textarea
   name: description
-  label: description
+  label: Descripció (SEO)
 - type: textarea
   name: text
-  label: text
+  label: Text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
 - type: field_group_list
   name: projectes
-  label: projectes
+  label: Projectes
   fields:
   - type: text
-    name: category
-    label: category
-  - type: text
     name: title
-    label: title
-  - type: text
-    name: description
-    label: description
-  - type: field_group_list
-    name: images
-    label: images
-    fields:
-    - type: text
-      name: alt
-      label: alt
-    - type: file
-      name: src
-      label: src
+    label: Nom
+    config:
+      required: true
+  - name: category
+    type: select
+    default: []
+    config:
+      required: true
+      options:
+      - rehabilitació
+      - " habitatge"
+      - espai comercial
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Categoria
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Descripció
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Imatges
+  config:
+    min: 1
+    labelField: title
