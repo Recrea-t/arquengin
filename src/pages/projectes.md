@@ -36,11 +36,11 @@ projectes:
     description: Habitatge a Esterri d'Àneu
     images:
       - alt: imatge
-        src: /images/_jb19011.jpg
-      - alt: imatge
         src: /images/_jb19012a.jpg
       - alt: imatge
         src: /images/_jb19024.jpg
       - alt: imatge
         src: /images/_jb19034.jpg
+      - alt: imatge
+        src: /images/_jb19011.jpg
 ---
