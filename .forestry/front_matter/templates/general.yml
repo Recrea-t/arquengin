@@ -15,4 +15,5 @@ fields:
   name: description
   label: Descripció (SEO)
 pages:
+- src/pages/avis-legal.md
 - src/pages/politica-de-proteccio-de-dades.md
