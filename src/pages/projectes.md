@@ -11,44 +11,5 @@ text: >-
 
 
   Aquí mostrem alguns dels nostres treballs.
-projectes:
-  - title: Prova
-    category: habitatge
-    description: És una **prova**.
-    images:
-      - alt: imatge
-        src: /images/_jb19011.jpg
-  - title: Burgerplatz
-    category: espai comercial
-    description: Hamburgueseria ubicada a Espot
-    images:
-      - alt: Menjador
-        src: /images/_jb12309.jpg
-      - src: /images/_jb12315.jpg
-        alt: Menjador
-      - src: /images/_jb12337.jpg
-        alt: Barra
-      - src: /images/_jb12289.jpg
-        alt: Saleta
-      - src: /images/_jb12310.jpg
-        alt: Menjador
-  - title: Bar Bodega La Tona
-    category: espai comercial
-    description: |-
-      **Arquitecte:** Jordi Mestre
-
-      **Interiorista:** Alba Mestre
-
-      **Localització:** Isil
-    images:
-      - src: /images/BarGeneral.jpg
-        alt: Vista general
-      - src: /images/Bodega.jpg
-        alt: Bodega
-      - src: /images/Barra.jpg
-        alt: Barra
-      - src: /images/Raco.jpg
-        alt: Racó
-      - src: /images/TaulaTona.jpg
-        alt: Taula
+projectes: []
 ---
