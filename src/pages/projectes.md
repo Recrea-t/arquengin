@@ -37,4 +37,8 @@ projectes:
     images:
       - alt: imatge
         src: /images/_jb19011.jpg
+      - alt: imatge
+        src: /images/_jb19012a.jpg
+      - alt: imatge
+        src: /images/_jb19024.jpg
 ---
