@@ -3,7 +3,17 @@ new_page_extension: md
 auto_deploy: false
 admin_path: static/admin
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: src/pages
+  label: Pàgines
+  create: documents
+  match: "*.md"
+  new_doc_ext: ".md"
+- type: document
+  path: site-config.json
+  label: Site MetaData
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
