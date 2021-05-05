@@ -12,6 +12,25 @@ text: >-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+  - category: espai comercial
+    title: Bar Bodega La Tona
+    description: |-
+      **Arquitecte:** Jordi Mestre
+
+      **Interiorista:** Alba Mestre
+
+      **Localització:** Isil
+    images:
+      - alt: imatge
+        src: /images/bargeneral.jpg
+      - alt: imatge
+        src: /images/barra.jpg
+      - alt: imatge
+        src: /images/bodega.jpg
+      - alt: imatge
+        src: /images/raco.jpg
+      - alt: imatge
+        src: /images/taulatona.jpg
   - title: Prova
     category: habitatge
     description: És una **prova**.
