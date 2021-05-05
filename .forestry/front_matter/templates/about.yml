@@ -1,0 +1,26 @@
+---
+label: about
+hide_body: true
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: field_group_list
+  name: people
+  label: people
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: summary
+    label: summary
