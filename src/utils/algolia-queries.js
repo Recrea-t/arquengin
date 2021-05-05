@@ -10,17 +10,15 @@ const pageQuery = `{
         projectes {
           title
           category
-          images {
-						thumbnail: src {
-							childImageSharp {
-								gatsbyImageData (
-									width: 340
-									aspectRatio: 1
-									transformOptions: { cropFocus: CENTER }
-									placeholder: BLURRED
-									formats: [AVIF, WEBP, AUTO]
-								)
-							}
+					images {
+						childImageSharp {
+							gatsbyImageData (
+								width: 340
+								aspectRatio: 1
+								transformOptions: { cropFocus: CENTER }
+								placeholder: BLURRED
+								formats: [AVIF, WEBP, AUTO]
+							)
 						}
 					}
 				}
@@ -33,7 +31,7 @@ function pageToAlgoliaRecord({ title, category, images }) {
     objectID: slugify(title, { lower: true }),
     title: title,
     category: category,
-    image: images[0].thumbnail,
+    image: images[0],
   }
 }
 

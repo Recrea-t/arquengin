@@ -83,7 +83,7 @@ const ProjectPage = ({ pageContext }) => {
             direction="column"
             bg="revell.500"
             w={{ base: "full", md: 1 / 3, lg: 1 / 4 }}
-            maxH={images[0].src.childImageSharp.gatsbyImageData.height}
+            maxH={images[0].childImageSharp.gatsbyImageData.height}
             p={4}
             mr={[0, null, 8]}
             mb={[4, null, 0]}
@@ -111,11 +111,11 @@ const ProjectPage = ({ pageContext }) => {
                 <Image
                   key={index}
                   h="full"
-                  maxH={images[0].src.childImageSharp.gatsbyImageData.height}
+                  maxH={images[0].childImageSharp.gatsbyImageData.height}
                   as={GatsbyImage}
                   loading={index === 0 ? "eager" : "lazy"}
-                  image={getImage(image.src)}
-                  alt={image.alt || " "}
+                  image={getImage(image)}
+                  alt="imatge galeria"
                   imgStyle={{
                     objectFit: "contain",
                     objectPosition: "center",
@@ -132,8 +132,8 @@ const ProjectPage = ({ pageContext }) => {
                 width="full"
                 as={GatsbyImage}
                 loading={index === 0 ? "eager" : "lazy"}
-                image={getImage(image.src)}
-                alt={image.alt}
+                image={getImage(image)}
+                alt="imatge galeria"
               />
             ))}
           </VStack>

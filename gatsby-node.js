@@ -38,15 +38,12 @@ exports.createPages = ({ actions, graphql }) => {
                 description
                 category
                 images {
-                  alt
-                  src {
-                    childImageSharp {
-                      gatsbyImageData(
-                        width: 733
-                        placeholder: BLURRED
-                        formats: [AVIF, WEBP, AUTO]
-                      )
-                    }
+                  childImageSharp {
+                    gatsbyImageData(
+                      width: 733
+                      placeholder: BLURRED
+                      formats: [AVIF, WEBP, AUTO]
+                    )
                   }
                 }
               }

@@ -23,15 +23,5 @@ projectes:
   - "/images/bodega.jpg"
   - "/images/raco.jpg"
   - "/images/taulatona.jpg"
-  - alt: imatge
-    src: "/images/bargeneral.jpg"
-  - alt: imatge
-    src: "/images/barra.jpg"
-  - alt: imatge
-    src: "/images/bodega.jpg"
-  - alt: imatge
-    src: "/images/raco.jpg"
-  - alt: imatge
-    src: "/images/taulatona.jpg"
 
 ---
