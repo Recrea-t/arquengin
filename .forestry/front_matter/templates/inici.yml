@@ -5,21 +5,29 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Títol (SEO)
 - type: textarea
   name: description
-  label: description
+  label: Descripció (SEO)
 - type: file
   name: hero
-  label: hero
+  label: 'Imatge '
 - type: list
   name: arquitectura
-  label: arquitectura
+  label: Arquitectura
+  config:
+    min: 1
+    use_select: false
 - type: list
   name: enginyeria
-  label: enginyeria
+  label: Enginyeria
+  config:
+    min: 1
 - type: list
   name: interiorisme
-  label: interiorisme
+  label: Interiorisme
+  config:
+    min: 1
