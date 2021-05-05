@@ -11,5 +11,11 @@ text: >-
 
 
   Aquí mostrem alguns dels nostres treballs.
-projectes: []
+projectes:
+  - title: Prova
+    category: habitatge
+    description: És una **prova**.
+    images:
+      - alt: imatge
+        src: /images/hero.jpg
 ---
