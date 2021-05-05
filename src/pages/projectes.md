@@ -9,6 +9,15 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+- title: Habitatge
+  category: " habitatge"
+  description: "**Localització:** Esterri d'Àneu"
+  images:
+  - "/images/_jb19012a.jpg"
+  - "/images/_jb19011.jpg"
+  - "/images/_jb19026.jpg"
+  - "/images/_jb19024.jpg"
+  - "/images/_jb19034.jpg"
 - category: espai comercial
   title: Bar Bodega La Tona
   description: |-
