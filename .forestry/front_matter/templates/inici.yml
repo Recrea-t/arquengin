@@ -1,0 +1,25 @@
+---
+label: inici
+hide_body: true
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: hero
+  label: hero
+- type: list
+  name: arquitectura
+  label: arquitectura
+- type: list
+  name: enginyeria
+  label: enginyeria
+- type: list
+  name: interiorisme
+  label: interiorisme

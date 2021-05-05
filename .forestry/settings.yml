@@ -9,11 +9,10 @@ sections:
   label: Pàgines
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: document
   path: site-config.json
   label: Site MetaData
-  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
