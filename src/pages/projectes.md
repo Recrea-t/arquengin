@@ -17,5 +17,5 @@ projectes:
     description: És una **prova**.
     images:
       - alt: imatge
-        src: /images/hero.jpg
+        src: /images/_jb19011.jpg
 ---
