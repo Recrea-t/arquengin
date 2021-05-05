@@ -14,8 +14,12 @@ fields:
 - type: textarea
   name: description
   label: Descripció (SEO)
-- type: text
-  name: text
-  label: Text
+- name: text
+  type: textarea
+  default: ''
   config:
     required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
