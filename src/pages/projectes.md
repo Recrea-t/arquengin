@@ -9,6 +9,16 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+- title: Hotel Valls d'Àneu
+  category: espai comercial
+  description: 'Rehabilitació habitacions tercera planta '
+  images:
+  - "/images/_jb15879.JPG"
+  - "/images/_jb15930.JPG"
+  - "/images/_jb15912.JPG"
+  - "/images/_jb15957.JPG"
+  - "/images/_jb15874.JPG"
+  - "/images/_jb15869.JPG"
 - title: Burgerplatz
   category: espai comercial
   description: Hamburgueseria a Espot.
