@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
-import { useLocation } from "@reach/router";
-import useSiteMetadata from "../siteMetadata";
-import SchemaOrg from "./SchemaOrg";
+import React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useLocation } from "@reach/router"
+import useSiteMetadata from "../siteMetadata"
+import SchemaOrg from "./SchemaOrg"
 
 const SEO = ({
   title,
@@ -14,7 +14,7 @@ const SEO = ({
   isBlogPost,
   datePublished,
 }) => {
-  const { pathname } = useLocation();
+  const { pathname } = useLocation()
 
   const {
     defaultTitle,
@@ -26,14 +26,14 @@ const SEO = ({
     author,
     organization,
     social,
-  } = useSiteMetadata();
+  } = useSiteMetadata()
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
-  };
+  }
 
   return (
     <React.Fragment>
@@ -67,6 +67,10 @@ const SEO = ({
         {social.fbAppID && (
           <meta property="fb:app_id" content={social.fbAppID} />
         )}
+        <meta
+          name="p:domain_verify"
+          content="9f6022023c8fa1a13198fa09238a8f7e"
+        />
       </Helmet>
       <SchemaOrg
         isBlogPost={isBlogPost}
@@ -81,8 +85,8 @@ const SEO = ({
         defaultTitle={defaultTitle}
       />
     </React.Fragment>
-  );
-};
+  )
+}
 
 SEO.defaultProps = {
   title: null,
@@ -92,7 +96,7 @@ SEO.defaultProps = {
   locale: `ca_ES`,
   isBlogPost: false,
   datePublished: null,
-};
+}
 
 SEO.propTypes = {
   title: PropTypes.string,
@@ -102,6 +106,6 @@ SEO.propTypes = {
   locale: PropTypes.string,
   isBlogPost: PropTypes.bool,
   datePublished: PropTypes.instanceOf(Date),
-};
+}
 
-export default SEO;
+export default SEO
