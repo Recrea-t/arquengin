@@ -20,8 +20,8 @@ projectes:
   description: Saleta
   title: Saleta Camping la Mola
   images:
-  - "/images/20180725_135200.jpg"
   - "/images/20180725_135104.jpg"
+  - "/images/20180725_135200.jpg"
   - "/images/20180725_135020.jpg"
 - title: Hotel Valls d'Àneu
   category: espai comercial
