@@ -64,14 +64,6 @@ services:
       links:
       - title: regia
         url: https://www.regiasrl.it/
-    - title: Articles de decoració
-      links: []
-    - title: Complements
-      links: []
-    - title: Cuina
-      links: []
-    - title: Electrodomèstics
-      links: []
     - title: Il·luminació
       links:
       - title: kreon
@@ -82,6 +74,14 @@ services:
         url: https://www.fontanaarte.com/
       - title: aqua
         url: https://www.aquaillumination.com/
+    - title: Articles de decoració
+      links: []
+    - title: Complements
+      links: []
+    - title: Cuina
+      links: []
+    - title: Electrodomèstics
+      links: []
     - title: Mobles
       links: []
   - title: Materials de CONSTRUCCIÓ
