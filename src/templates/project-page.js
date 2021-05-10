@@ -31,7 +31,7 @@ import ChakraUIRenderer from "../utils/ChakraUIRenderer"
 import Layout from "../components/Layout"
 
 const ProjectPage = ({ pageContext }) => {
-  const { title, category, description, images } = pageContext
+  const { title, category, description, images, gallery } = pageContext
 
   const controls = useAnimation()
   const [ref, inView] = useInView()
@@ -64,6 +64,8 @@ const ProjectPage = ({ pageContext }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    //variableWidth: true,
+    //centerMode: true,
     prevArrow: <Image src={prevArrow} alt="previous arrow" h="64px" w="37px" />,
     nextArrow: <Image src={nextArrow} alt="next arrow" h="64px" w="37px" />,
   }
@@ -105,17 +107,20 @@ const ProjectPage = ({ pageContext }) => {
             display={["none", null, "block"]}
             w={{ md: 2 / 3, lg: 3 / 4 }}
             px="37px"
+            maxH={images[0].childImageSharp.gatsbyImageData.height}
           >
             <Slider {...settings}>
               {images.map((image, index) => (
                 <Image
                   key={index}
+                  w="full"
                   h="full"
-                  maxH={images[0].childImageSharp.gatsbyImageData.height}
                   as={GatsbyImage}
                   loading={index === 0 ? "eager" : "lazy"}
                   image={getImage(image)}
                   alt="imatge galeria"
+                  objectFit="contain"
+                  objectPosition="center"
                   imgStyle={{
                     objectFit: "contain",
                     objectPosition: "center",
