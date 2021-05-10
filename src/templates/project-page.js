@@ -70,6 +70,7 @@ const ProjectPage = ({ pageContext }) => {
     nextArrow: <Image src={nextArrow} alt="next arrow" h="64px" w="37px" />,
   }
 
+  console.log(images)
   return (
     <Layout title={title} description={`Projecte de ${category}`}>
       <Container variant="with-top-padding">
@@ -107,14 +108,13 @@ const ProjectPage = ({ pageContext }) => {
             display={["none", null, "block"]}
             w={{ md: 2 / 3, lg: 3 / 4 }}
             px="37px"
-            maxH={images[0].childImageSharp.gatsbyImageData.height}
           >
             <Slider {...settings}>
               {images.map((image, index) => (
                 <Image
                   key={index}
                   w="full"
-                  h="full"
+                  maxH={images[0].childImageSharp.gatsbyImageData.height}
                   as={GatsbyImage}
                   loading={index === 0 ? "eager" : "lazy"}
                   image={getImage(image)}
