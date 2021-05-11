@@ -12,13 +12,13 @@ projectes:
   category: rehabilitació
   description: 'Localització: Esterri d''Àneu'
   images:
+  - "/images/20201026_114650.jpg"
   - "/images/20201104_110832.jpg"
-  - "/images/20201026_114138.jpg"
   - "/images/20201026_114303.jpg"
+  - "/images/20201026_114138.jpg"
   - "/images/20201026_114405.jpg"
   - "/images/20201026_113941.jpg"
   - "/images/20201026_114346.jpg"
-  - "/images/20201026_114650.jpg"
 - title: Habitatge Dorve
   category: rehabilitació
   description: "**Localització:** Dorve"
