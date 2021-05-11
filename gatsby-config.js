@@ -113,5 +113,16 @@ module.exports = {
         metricoolId: process.env.METRICOOL_ID,
       },
     },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: process.env.GA_TRACKING_ID,
+          cookieName: "gatsby-gdpr-google-analytics",
+          anonymize: true,
+        },
+        environments: ["production", "development"],
+      },
+    },
   ],
 }

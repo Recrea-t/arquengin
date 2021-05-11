@@ -114,6 +114,47 @@ const styles = {
         right: "-2.5rem !important",
       },
     },
+    ".cookie-consent-container": {
+      position: "relative",
+      ".cookie-consent-content": {
+        marginRight: "5rem !important",
+      },
+      ".cookie-consent-buttons": {
+        height: "100%",
+
+        button: {
+          textTransform: "uppercase",
+          color: "#fff !important",
+          background: "transparent !important",
+        },
+        ".accept-btn": {
+          fontWeight: "normal",
+          height: "auto",
+          width: "auto",
+          p: 2,
+          border: `6px solid white !important`,
+          transition: "background .5s linear",
+          marginRight: "5rem !important",
+          _hover: {
+            color: "#404040 !important",
+            bg: "#fff !important",
+          },
+          _focus: {
+            boxShadow: "none",
+            color: "#404040",
+            bg: "#fff important",
+          },
+        },
+        ".decline-btn": {
+          position: "absolute",
+          top: "0",
+          right: "0",
+          fontSize: "2.5rem",
+          margin: "0 !important",
+          padding: "0 .5rem !important",
+        },
+      },
+    },
   },
 }
 
