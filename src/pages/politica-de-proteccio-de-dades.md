@@ -33,6 +33,14 @@ El vostre consentiment pot ser revocat en qualsevol moment.
 
 *Arquitectura d'interiors Alba SL* utilitza eines per analitzar perfils, comportaments o preferències dels usuaris i posteriorment realitzar campanyes dirigides en funció d'aquestes dades.
 
+##### Informació que recollim de les vostres visites als nostres webs
+
+Pel simple fet de navegar per la nostra web, recollim estadístiques globals anònimes.
+
+Aquesta informació la utilitzem per millorar la informació i optimitzar l'experiència de l'usuari de manera contínua i l'obtenim mitjançant les galetes que es desen en els vostres navegadors.
+
+Per a més informació, consulteu la *[política de galetes](/politica-de-galetes)*.
+
 #### Per quina raó utilitzem les vostres dades personals?
 
 A continuació us expliquem la base legal que ens permet tractar les vostres dades personals.
