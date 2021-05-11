@@ -23,10 +23,10 @@ projectes:
   category: rehabilitació
   description: "**Localització:** Dorve"
   images:
+  - "/images/20180605_190327.jpg"
   - "/images/20180605_191654.jpg"
   - "/images/20180605_190102.jpg"
   - "/images/20180605_190310.jpg"
-  - "/images/20180605_190327.jpg"
 - category: espai comercial
   description: Saleta
   title: Saleta Camping la Mola
