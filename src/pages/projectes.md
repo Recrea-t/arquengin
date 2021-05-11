@@ -18,9 +18,7 @@ projectes:
 - title: Vivenda Dorve
   category: rehabilitació
   description: Rehabilitació vivenda a Dorve
-  images:
-  - "/images/20180605_190310.jpg"
-  - "/images/20180605_190327.jpg"
+  images: []
 - category: espai comercial
   description: Saleta
   title: Saleta Camping la Mola
