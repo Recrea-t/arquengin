@@ -7,7 +7,7 @@ import React from "react"
 import { useLocation } from "@reach/router"
 import useSiteMetadata from "./siteMetadata"
 
-import { Flex, Text, Link, useBreakpointValue } from "@chakra-ui/react"
+import { Flex, Text, Link } from "@chakra-ui/react"
 
 import CookieConsent from "react-cookie-consent"
 import { initializeAndTrack } from "gatsby-plugin-gdpr-cookies"
@@ -19,7 +19,6 @@ import SEO from "./SEO/seo"
 const TemplateWrapper = props => {
   const { title, description, image, isBlogPost, datePublished } = props
 
-  const isSmallDevice = useBreakpointValue({ base: true, md: false })
   const { defaultTitle } = useSiteMetadata()
   const location = useLocation()
 
@@ -69,8 +68,6 @@ const TemplateWrapper = props => {
             margin: "0 1rem 2rem 1rem",
             maxWidth: "calc(100% - 2rem)",
             bottom: "2rem",
-            mx: "1rem",
-            maxWidth: "calc(100% - 2rem)",
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
