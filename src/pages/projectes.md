@@ -8,17 +8,6 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
-- title: Vivenda Esterri d'Àneu
-  category: rehabilitació
-  description: Rehabilitació vivenda
-  images:
-  - "/images/20201104_110832.jpg"
-  - "/images/20201026_114303.jpg"
-  - "/images/20201026_114650.jpg"
-- title: Vivenda Dorve
-  category: rehabilitació
-  description: Rehabilitació vivenda a Dorve
-  images: []
 - category: espai comercial
   description: Saleta
   title: Saleta Camping la Mola
