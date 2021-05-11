@@ -13,9 +13,6 @@ projectes:
   description: Rehabilitació vivenda
   images:
   - "/images/20201026_114346.jpg"
-  - "/images/20201026_114650.jpg"
-  - "/images/20201104_110832.jpg"
-  - "/images/20201026_114303.jpg"
   - "/images/20201026_114138.jpg"
   - "/images/20201026_114405.jpg"
   - "/images/20201026_113941.jpg"
@@ -24,9 +21,7 @@ projectes:
   description: Rehabilitació vivenda a Dorve
   images:
   - "/images/20180605_190310.jpg"
-  - "/images/20180605_191654.jpg"
   - "/images/20180605_190327.jpg"
-  - "/images/20180605_190102.jpg"
 - category: espai comercial
   description: Saleta
   title: Saleta Camping la Mola
