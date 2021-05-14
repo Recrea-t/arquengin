@@ -5,7 +5,7 @@ description: Som un estudi dels Pirineus dedicat al món de la construcció i le
   integrals situat a Esterri d'Àneu, format per un arquitecte tècnic i una interiorista
   am una àmplia experiència desenvolupant projectes de disseny i rehabilitació d'habitatges
   així com espais comercials.
-image: "../../static/images/AlbaJordi.jpg"
+image: "/images/muntatgejordialba.jpg"
 people:
 - title: Jordi Mestre
   summary: |-
