@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Arquitectura, enginyeria i interiorisme a Esterri d'Àneu
+title: Arquitectura, enginyeria i interiorisme al Pallars sobirà
 description: Som un estudi dedicat al món de la construcció i les reformes integrals
   situat al Pallars Sobirà. Oferim serveis d'arquitectura, enginyeria, interiorisme
   i venda de mobiliari.
