@@ -70,7 +70,6 @@ const ProjectPage = ({ pageContext }) => {
     nextArrow: <Image src={nextArrow} alt="next arrow" h="64px" w="37px" />,
   }
 
-  console.log(images)
   return (
     <Layout title={title} description={`Projecte de ${category}`}>
       <Container variant="with-top-padding">
