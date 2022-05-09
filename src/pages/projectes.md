@@ -8,6 +8,17 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+- title: Àneu Coworking
+  category: espai comercial
+  description: |-
+    Reforma integral
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: Esterri d'Àneu
+  images:
+  - "/images/20201223_142447.jpg"
+  - "/images/20201223_142015.jpg"
 - title: Habitatge Esterri d'Àneu
   category: rehabilitació
   description: |-
