@@ -10,15 +10,24 @@ text: |-
 projectes:
 - title: Habitatge Esterri d'Àneu
   category: rehabilitació
-  description: 'Localització: Esterri d''Àneu'
+  description: |-
+    Rehabilitació de casa antiga
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: Esterri d'Àneu
   images:
-  - "/images/20201026_114650.jpg"
-  - "/images/20201104_110832.jpg"
-  - "/images/20201026_114303.jpg"
-  - "/images/20201026_114138.jpg"
-  - "/images/20201026_114405.jpg"
-  - "/images/20201026_113941.jpg"
-  - "/images/20201026_114346.jpg"
+  - "/images/20191009_104210.jpg"
+  - "/images/20201104_110832-1.jpg"
+  - "/images/20201104_110807.jpg"
+  - "/images/20201026_114650-1.jpg"
+  - "/images/20201026_114337.jpg"
+  - "/images/20191025_124455.jpg"
+  - "/images/20201026_113859.jpg"
+  - "/images/20191025_125000.jpg"
+  - "/images/20201026_114138-1.jpg"
+  - "/images/20201026_113941-1.jpg"
+  - "/images/20201026_114114.jpg"
 - title: Habitatge Dorve
   category: rehabilitació
   description: |-
