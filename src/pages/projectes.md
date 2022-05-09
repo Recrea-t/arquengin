@@ -51,7 +51,12 @@ projectes:
   - "/images/_jb15869.JPG"
 - title: Burgerplatz
   category: espai comercial
-  description: Hamburgueseria a Espot.
+  description: |-
+    Hamburgueseria a Espot.
+
+    **Interiorista:** Alba Mestre
+
+    **Localització:** Espot
   images:
   - "/images/_jb12384.JPG"
   - "/images/_jb12337.JPG"
