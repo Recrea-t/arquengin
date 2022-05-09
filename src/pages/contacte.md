@@ -1,6 +1,6 @@
 ---
 templateKey: contact-page
-title: Contacte
+title: Contacte Arquitectura i interiorisme a Esterri d'Àneu
 description: Vine a veure'ns al nostre estudi d'arquitectura, enginyeria i interiorisme
   a Esterri d'Àneu (Pallars Sobirà). També pots enviar-nos un correu electrònic o
   trucar-nos.
