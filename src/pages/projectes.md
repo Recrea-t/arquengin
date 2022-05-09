@@ -41,7 +41,12 @@ projectes:
   - "/images/20180725_135143.jpg"
 - title: Hotel Valls d'Àneu
   category: espai comercial
-  description: 'Rehabilitació habitacions tercera planta '
+  description: |-
+    Rehabilitació de les habitacions de la tercera planta
+
+    **Interiorista:** Alba Mestre
+
+    **Localització:** Esterri d'Àneu
   images:
   - "/images/_jb15879.JPG"
   - "/images/_jb15930.JPG"
