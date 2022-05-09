@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Qui som?
+title: Qui som? Arquitecte i interiorista a Esterri d'Àneu
 description: Som un estudi dels Pirineus dedicat al món de la construcció i les reformes
   integrals situat a Esterri d'Àneu, Valls d'Àneu, Pallars sobirà, format per un arquitecte
   tècnic i una interiorista amb una àmplia experiència desenvolupant projectes de
