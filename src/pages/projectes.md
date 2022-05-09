@@ -1,6 +1,6 @@
 ---
 templateKey: projects-list-page
-title: Projectes d'arquitectura, enginyeria i interiorisme
+title: Projectes i reformes integrals d'arquitectura, enginyeria i interiorisme
 description: Tenim una àmplia experiència arreu de Catalunya desenvolupant projectes
   de reforma integral, disseny i rehabilitació d'habitatges així com espais comercials.
 text: |-
@@ -28,12 +28,17 @@ projectes:
   - "/images/20180605_190102.jpg"
   - "/images/20180605_190310.jpg"
 - category: espai comercial
-  description: Saleta
+  description: |-
+    Reforma de saleta
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: Espot
   title: Saleta Camping la Mola
   images:
-  - "/images/20180725_135104.jpg"
-  - "/images/20180725_135200.jpg"
-  - "/images/20180725_135020.jpg"
+  - "/images/20180725_135020-1.jpg"
+  - "/images/20180725_134819.jpg"
+  - "/images/20180725_135143.jpg"
 - title: Hotel Valls d'Àneu
   category: espai comercial
   description: 'Rehabilitació habitacions tercera planta '
