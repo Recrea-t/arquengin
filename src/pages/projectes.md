@@ -60,10 +60,13 @@ projectes:
   - "/images/_jb12289.JPG"
 - title: Habitatge
   category: " habitatge"
-  description: "**Localització:** Esterri d'Àneu"
+  description: |-
+    **Interiorista:** Alba Mestre
+
+    **Localització:** Esterri d'Àneu
   images:
-  - "/images/_jb19011.jpg"
   - "/images/_jb19012a.jpg"
+  - "/images/_jb19011.jpg"
   - "/images/_jb19026.jpg"
   - "/images/_jb19024.jpg"
   - "/images/_jb19034.jpg"
