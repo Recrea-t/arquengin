@@ -21,12 +21,20 @@ projectes:
   - "/images/20201026_114346.jpg"
 - title: Habitatge Dorve
   category: rehabilitació
-  description: "**Localització:** Dorve"
+  description: |-
+    Rehabilitació de casa antiga
+
+    **Interiorista:** Alba mestre
+
+    **Localització:** Dorve
   images:
-  - "/images/20180605_190327.jpg"
-  - "/images/20180605_191654.jpg"
-  - "/images/20180605_190102.jpg"
-  - "/images/20180605_190310.jpg"
+  - "/images/20180329_133052.jpg"
+  - "/images/20180329_133001.jpg"
+  - "/images/20180605_190231.jpg"
+  - "/images/20180605_185936.jpg"
+  - "/images/20180605_184830.jpg"
+  - "/images/20180605_191702.jpg"
+  - "/images/20180605_184623.jpg"
 - category: espai comercial
   description: |-
     Reforma de saleta
