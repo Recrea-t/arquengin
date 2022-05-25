@@ -24,6 +24,8 @@ projectes:
   description: |-
     Rehabilitació de casa antiga
 
+    **Arquitecte tècnic**: Jordi Mestre
+
     **Interiorista**: Alba Mestre
 
     **Localització**: Esterri d'Àneu
