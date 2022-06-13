@@ -8,6 +8,16 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+- title: Cuina reformada
+  category: " habitatge"
+  description: |-
+    Reforma integral de cuina.
+
+    **Interiorista**: Alba Mestre
+  images:
+  - "/images/cuinaesterri03.jpg"
+  - "/images/cuinaesterri02.jpg"
+  - "/images/cuinaesterri01.jpg"
 - title: Àneu Coworking
   category: espai comercial
   description: |-
