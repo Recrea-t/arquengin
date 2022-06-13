@@ -79,11 +79,11 @@ projectes:
     **Localització:** Esterri d'Àneu
   images:
   - "/images/_jb15879.JPG"
-  - "/images/_jb15930.JPG"
   - "/images/_jb15912.JPG"
   - "/images/_jb15957.JPG"
   - "/images/_jb15874.JPG"
   - "/images/_jb15869.JPG"
+  - "/images/_jb15930.JPG"
   - "/images/img-20220120-wa0008.jpg"
   - "/images/img-20220120-wa0002.jpg"
   - "/images/img-20220120-wa0003.jpg"
