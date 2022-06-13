@@ -14,6 +14,8 @@ projectes:
     Reforma integral de cuina.
 
     **Interiorista**: Alba Mestre
+
+    **Localització**: Esterri dÀneu
   images:
   - "/images/cuinaesterri03.jpg"
   - "/images/cuinaesterri02.jpg"
