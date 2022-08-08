@@ -24,10 +24,10 @@ projectes:
   - "/images/banymarro.jpg"
   - "/images/banymorat.jpg"
   - "/images/banytaronja.jpg"
-- title: Cuina reformada
+- title: Reforma integral de cuina
   category: " habitatge"
   description: |-
-    Reforma integral de cuina.
+    Cuina reformada amb mobles de melamina, taulells i frontal de silestone, barra lateral, electrodomèstics integrats i terra vinílic amb aparença de fusta.
 
     **Interiorista**: Alba Mestre
 
