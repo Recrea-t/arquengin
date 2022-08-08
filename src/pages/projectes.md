@@ -96,7 +96,7 @@ projectes:
 - title: Hotel Valls d'Àneu
   category: espai comercial
   description: |-
-    Rehabilitació de les habitacions de la tercera planta, en una primera fase, i les suites sota coberta en segona fase
+    Reforma integral de les habitacions de la tercera planta, en una primera fase, i les suites sota coberta en segona fase de l'hotel Valls d'Àneu.
 
     **Interiorista:** Alba Mestre
 
