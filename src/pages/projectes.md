@@ -38,12 +38,8 @@ projectes:
   - "/images/cuinaesterri01.jpg"
 - title: Àneu Coworking
   category: espai comercial
-  description: |-
-    Reforma integral
-
-    **Interiorista**: Alba Mestre
-
-    **Localització**: Esterri d'Àneu
+  description: "Reforma integral i mobiliari del nou espai de coworking del Pallars
+    Sobirà. \n\n**Interiorista**: Alba Mestre\n\n**Localització**: Esterri d'Àneu"
   images:
   - "/images/20201223_142447.jpg"
   - "/images/20201223_142015.jpg"
