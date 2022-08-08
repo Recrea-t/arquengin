@@ -142,6 +142,8 @@ projectes:
 - category: espai comercial
   title: Bar Bodega La Tona
   description: |-
+    Mobiliari i rehabilitació d'uns antics baixos, convertits en Bar, bodega i restaurant.
+
     **Arquitecte:** Jordi Mestre
 
     **Interiorista:** Alba Mestre
