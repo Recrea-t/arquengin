@@ -128,6 +128,8 @@ projectes:
 - title: Habitatge
   category: " habitatge"
   description: |-
+    Reforma integral per a unificar dos pisos, en un únic habitatge dúplex.
+
     **Interiorista:** Alba Mestre
 
     **Localització:** Esterri d'Àneu
