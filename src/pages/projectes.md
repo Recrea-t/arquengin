@@ -83,7 +83,7 @@ projectes:
   - "/images/20180605_184623.jpg"
 - category: espai comercial
   description: |-
-    Reforma de saleta
+    Reforma integral i mobiliari de la sala d'estar del Càmping la Mola.
 
     **Interiorista**: Alba Mestre
 
