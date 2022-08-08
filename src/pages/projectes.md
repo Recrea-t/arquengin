@@ -114,7 +114,7 @@ projectes:
 - title: Burgerplatz
   category: espai comercial
   description: |-
-    Hamburgueseria a Espot.
+    Disseny d'interiors i mobiliari de l'hamburgueseria Burgerplatz.
 
     **Interiorista:** Alba Mestre
 
