@@ -8,6 +8,22 @@ text: |-
 
   Aquí mostrem alguns dels nostres treballs.
 projectes:
+- title: Reforma de banys
+  category: espai comercial
+  description: |-
+    Reforma dels banys de les habitacions de l'hotel _la Posada d'Àneu_, amb aplicació de microciment de colors, diferents en cada bany.
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: Eterri d'Àneu
+  images:
+  - "/images/banylila.jpg"
+  - "/images/banyverd.jpg"
+  - "/images/banyvermell.jpg"
+  - "/images/banyblau.jpg"
+  - "/images/banymarro.jpg"
+  - "/images/banymorat.jpg"
+  - "/images/banytaronja.jpg"
 - title: Cuina reformada
   category: " habitatge"
   description: |-
