@@ -61,19 +61,9 @@ services:
       Hi trobareu tots els estils de mobles i complements, desde el més clàssic fins al més modern i avantguardista. Al nostre local hi podreu gaudir dels diferents estils i ambients que disposem.
     list:
     - title: Bany
-      links:
-      - title: regia
-        url: https://www.regiasrl.it/
+      links: []
     - title: Il·luminació
-      links:
-      - title: kreon
-        url: https://www.kreon.com/
-      - title: santa&cole
-        url: https://www.santacole.com/
-      - title: fontanaarte
-        url: https://www.fontanaarte.com/
-      - title: aqua
-        url: https://www.aquaillumination.com/
+      links: []
     - title: Articles de decoració
       links: []
     - title: Complements
