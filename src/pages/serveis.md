@@ -68,7 +68,7 @@ services:
       links: []
     - title: Complements
       links: []
-    - title: Cuina
+    - title: Cuines a mida
       links: []
     - title: Electrodomèstics
       links: []
