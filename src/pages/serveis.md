@@ -79,12 +79,12 @@ services:
     - title: Mobles per a tots els espais de la casa
       links: []
   - title: Materials de CONSTRUCCIÓ
-    description: |-
-      Estem especialitzats en material de construcció, a les nostres instal·lacions, hi podeu trobar des del ciment per poder fer el morter, fins les lloses pel llosat, o les finestres per col·locar-hi.
-
-      Per l'ambient exterior, tenim balaustres amb diverses formes i dissenys.
-
-      Tenim permanentment en estoc una àmplia gamma en productes aïllants per exteriors, teles asfàltiques, coles i altres productes necessaris, amb vistes a satisfer qualsevol tipus de necessitat per urgent que sigui.
+    description: "T'acompanyem en tot el procés de tria i presa de decisions sobre
+      quins són els materials més adequats per tal que la teva reforma sigui un encert.\n\n
+      \ \nEstem atents a les novetats del mercat pel que fa a productes respectuosos
+      amb el medi ambient i amb la salut de les persones.\n\n  \nA la nostra oficina
+      disposem de mostres i catàlegs sempre actualitzats, amb vista a satisfer qualsevol
+      classe de necessitat."
     list:
     - title: Paviments i Revestiments
       links: []
@@ -92,7 +92,7 @@ services:
       links: []
     - title: Pintures
       links: []
-    - title: Marbres i Silestones
+    - title: Marbres, Silestones, granits i porcellànics
       links: []
 
 ---
