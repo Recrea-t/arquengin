@@ -53,12 +53,12 @@ services:
   - Projectes de paisatgisme i de disseny d'espais públics
   sections:
   - title: Venda de MOBILIARI
-    description: |-
-      Som una empresa dedicada al moble de tot tipus, tant clàssic com de vanguarda i disseny, tots de primera qualitat, amb més de 10 anys d'experiència. 
-
-      Oferim una atenció personalitzada, amb projectes a mida, posant al vostre abast els dissenys més actuals, amb la millor relació de qualitat i preu. 
-
-      Hi trobareu tots els estils de mobles i complements, desde el més clàssic fins al més modern i avantguardista. Al nostre local hi podreu gaudir dels diferents estils i ambients que disposem.
+    description: "Amb quasi vint anys d’experiència, t’ajudem i t’assessorem en l’elecció
+      del mobiliari per a la teva llar o el teu negoci.\n\n  \nMitjançant una atenció
+      personalitzada, posem al teu abast un gran ventall de marques de mobles i complements
+      tant d’estil clàssic, com d'avantguarda, buscant la relació qualitat-preu que
+      millor s’adapti a tu. \n\nProjectem i dissenyem mobiliari a mida de les teves
+      necessitats."
     list:
     - title: Mobiliari de bany
       links: []
@@ -76,7 +76,7 @@ services:
       links: []
     - title: Sofàs
       links: []
-    - title: Mobles per a tots els espais de la cas
+    - title: Mobles per a tots els espais de la casa
       links: []
   - title: Materials de CONSTRUCCIÓ
     description: |-
