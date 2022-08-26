@@ -8,9 +8,11 @@ services:
 - id: arquitectura
   title: Arquitectura
   className: is-arquitectura
-  description: Som una empresa dedicada al món de la construcció i les reformes integrals.
-    Ens encarreguem tant de reformes (siguin de rehabilitació d'habitatges o de locals
-    comercials, reparació de façanes, etc.,) com de projectes d'obra nova.
+  description: "Ens dediquem a la construcció i les reformes integrals. \n\nTreballem
+    en projectes d'obra nova, de reforma o rehabilitació. \n\nSempre que sigui possible,
+    practiquem la bioconstrucció, utilitzem materials de proximitat i sostenibles.
+    \n\nEns adaptem a les teves necessitats i t'acompanyem en tot el procés constructiu.
+    \n\nEls principals serveis d'arquitectura que oferim són:"
   list:
   - Projectes d'habitatges unifamiliars
   - Projectes d'edifici per habitatges
