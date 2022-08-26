@@ -60,8 +60,6 @@ services:
 
       Hi trobareu tots els estils de mobles i complements, desde el més clàssic fins al més modern i avantguardista. Al nostre local hi podreu gaudir dels diferents estils i ambients que disposem.
     list:
-    - title: Sofàs
-      links: []
     - title: Mobiliari de bany
       links: []
     - title: Il·luminació
@@ -76,7 +74,9 @@ services:
       links: []
     - title: Dormitoris
       links: []
-    - title: Mobles
+    - title: Sofàs
+      links: []
+    - title: Mobles per a tots els espais de la cas
       links: []
   - title: Materials de CONSTRUCCIÓ
     description: |-
