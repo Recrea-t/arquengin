@@ -60,7 +60,7 @@ services:
 
       Hi trobareu tots els estils de mobles i complements, desde el més clàssic fins al més modern i avantguardista. Al nostre local hi podreu gaudir dels diferents estils i ambients que disposem.
     list:
-    - title: Bany
+    - title: Mobiliari de bany
       links: []
     - title: Il·luminació
       links: []
