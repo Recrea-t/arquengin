@@ -39,11 +39,13 @@ services:
   title: Interiorisme
   className: is-interiorisme
   description: |-
-    A Arquengin som conscients de la importància de la imatge d'un espai interior en determinats àmbits.
+    El disseny d’interiors o interiorisme és aquell procés mitjançant el qual es crea, es modifica i es distribueix un espai per treure’n el màxim profit.
 
-    En el camp empresarial, un interior cuidat i elegant és reflex de la imatge corporativa i del nivell de competitivitat. A Arquengin us ajudem a reflectir aquesta idea de bon servei i d'eficàcia empresarial, construint els espais a la mesura dels vostres interessos.
+    En l’àmbit empresarial, un interior cuidat i elegant és reflex de la imatge corporativa i del nivell de competitivitat. A Arquengin t’ajudem a reflectir aquesta idea de bon servei i d'eficàcia empresarial, construint els espais a la mesura dels teus interessos.
 
-    En espais privats són importants les sensacions i valors com a reflex del caràcter individual. La prioritat de l'espai vital, la comoditat, l'estatus, el sentit estètic com a mitjans de comunicació interpersonal, són atributs que ajudem a visualitzar mitjançant la nostra arquitectura d'interiors.
+    En espais privats són importants les sensacions i valors com a reflex del caràcter individual. La prioritat de l'espai vital, la comoditat, l'estatus, el sentit estètic com a mitjans de comunicació interpersonal, són atributs que t’ajudem a visualitzar mitjançant la nostra arquitectura d'interiors.
+
+    Els principals serveis d’interiorisme que oferim són:
   list:
   - Disseny d'habitatges i espais per a l'hàbitat
   - Disseny d'espais comercials
