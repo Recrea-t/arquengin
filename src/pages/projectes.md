@@ -10,6 +10,16 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Casa de pedra
+  category: rehabilitació
+  description: |-
+    Rehabilitació de casa de poble.
+
+    **Arquitecte**: Jordi Mestre
+
+    **Localització**: Altron (Pallars Sobirà)
+  images:
+  - "/images/casapedra.jpg"
 - title: Reforma de banys
   category: espai comercial
   description: |-
