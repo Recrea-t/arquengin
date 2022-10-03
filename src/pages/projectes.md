@@ -108,7 +108,11 @@ projectes:
 - title: Hotel Valls d'Àneu
   category: espai comercial
   description: |-
-    Reforma integral de les habitacions de la tercera planta, en una primera fase, i les suites sota coberta en segona fase de l'hotel Valls d'Àneu.
+    Reforma integral de les habitacions de l'hotel Valls d'Àneu. Aquest projecte d'interiorisme comercial s'ha realitzat en tres fases:
+
+    * Primera fase: reforma de les habitacions de la tercera planta.
+    * Segona fase: disseny de les suites sota coberta.
+    * Tercera fase: reforma de les habitacions de la segona planta.
 
     **Interiorista:** Alba Mestre
 
@@ -120,9 +124,15 @@ projectes:
   - "/images/_jb15874.JPG"
   - "/images/_jb15869.JPG"
   - "/images/_jb15930.JPG"
-  - "/images/img-20220120-wa0008.jpg"
-  - "/images/img-20220120-wa0002.jpg"
-  - "/images/img-20220120-wa0003.jpg"
+  - "/images/dsc_0063.jpg"
+  - "/images/dsc_0081.jpg"
+  - "/images/dsc_0070.jpg"
+  - "/images/dsc_0084.jpg"
+  - "/images/dsc_0050.jpg"
+  - "/images/dsc_0015.jpg"
+  - "/images/dsc_0029.jpg"
+  - "/images/dsc_0027.jpg"
+  - "/images/dsc_0038.jpg"
 - title: Burgerplatz
   category: espai comercial
   description: |-
