@@ -10,6 +10,34 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Hotel Valls d'Àneu
+  category: espai comercial
+  description: |-
+    Reforma integral de les habitacions de l'hotel Valls d'Àneu. Aquest projecte d'interiorisme comercial s'ha realitzat en tres fases:
+
+    * Primera fase: reforma de les habitacions de la tercera planta.
+    * Segona fase: disseny de les suites sota coberta.
+    * Tercera fase: reforma de les habitacions de la segona planta.
+
+    **Interiorista:** Alba Mestre
+
+    **Localització:** Esterri d'Àneu
+  images:
+  - "/images/_jb15879.JPG"
+  - "/images/_jb15912.JPG"
+  - "/images/_jb15957.JPG"
+  - "/images/_jb15874.JPG"
+  - "/images/_jb15869.JPG"
+  - "/images/_jb15930.JPG"
+  - "/images/dsc_0063.jpg"
+  - "/images/dsc_0081.jpg"
+  - "/images/dsc_0070.jpg"
+  - "/images/dsc_0084.jpg"
+  - "/images/dsc_0050.jpg"
+  - "/images/dsc_0015.jpg"
+  - "/images/dsc_0029.jpg"
+  - "/images/dsc_0027.jpg"
+  - "/images/dsc_0038.jpg"
 - title: Casa de pedra
   category: rehabilitació
   description: |-
@@ -105,34 +133,6 @@ projectes:
   - "/images/20180725_135020-1.jpg"
   - "/images/20180725_134819.jpg"
   - "/images/20180725_135143.jpg"
-- title: Hotel Valls d'Àneu
-  category: espai comercial
-  description: |-
-    Reforma integral de les habitacions de l'hotel Valls d'Àneu. Aquest projecte d'interiorisme comercial s'ha realitzat en tres fases:
-
-    * Primera fase: reforma de les habitacions de la tercera planta.
-    * Segona fase: disseny de les suites sota coberta.
-    * Tercera fase: reforma de les habitacions de la segona planta.
-
-    **Interiorista:** Alba Mestre
-
-    **Localització:** Esterri d'Àneu
-  images:
-  - "/images/_jb15879.JPG"
-  - "/images/_jb15912.JPG"
-  - "/images/_jb15957.JPG"
-  - "/images/_jb15874.JPG"
-  - "/images/_jb15869.JPG"
-  - "/images/_jb15930.JPG"
-  - "/images/dsc_0063.jpg"
-  - "/images/dsc_0081.jpg"
-  - "/images/dsc_0070.jpg"
-  - "/images/dsc_0084.jpg"
-  - "/images/dsc_0050.jpg"
-  - "/images/dsc_0015.jpg"
-  - "/images/dsc_0029.jpg"
-  - "/images/dsc_0027.jpg"
-  - "/images/dsc_0038.jpg"
 - title: Burgerplatz
   category: espai comercial
   description: |-
