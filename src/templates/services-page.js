@@ -36,10 +36,6 @@ export const query = graphql`
             description
             list {
               title
-              links {
-                title
-                url
-              }
             }
           }
         }
