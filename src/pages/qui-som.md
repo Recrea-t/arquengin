@@ -17,23 +17,32 @@ people:
   description: ''
 - title: Alba Mestre
   summary: Interiorista
-  description: |-
-    La seva carrera professional s'inicia com interiorista durant el període de formació universitària a Barcelona treballant a un estudi d'Arquitectura i disseny d'Interiors.
-
-    Des del 2003 forma part del **Col·legi Oficial de dissenyadors d'Interiors i Decoradors de Catalunya**. **Col·legiada 1118** de la demarcació de Lleida. **IFI** (Internacional Federation of Interiors Architects) **ECIA** ( European Council of Interior Architect).
-
-    Després d'uns anys d'experiència, **l'any 2005 obre un estudi d’Arquitectura d'Interiors a Esterri d'Àneu**, Av. Francesc Macià 16, on fa tots el projectes, venta de mobiliari, il·luminació, materials de construcció tot el que estigui relacionat amb la creació d'espais.
-
-    Des del 2007 forma part de la **Junta del col·legi Oficial de dissenyadors d'Interiors i Decoradors de Lleida**.
-
-    L'any 2008 cursa un **Postgrau de Peritatges** i s'incorpora a la llista de **Pèrits Oficials del Col·legi**.
-
-    Els seus projectes són tant d'àmbit comercial com privat. La seva filosofia és:
-
-    > “La vostra llar hauria de ser un refugi a l'estrès del món exterior. És el lloc que ha d'emplenar de calma, agradar i proporcionar repòs i assossec, sobretot si la vida a fora és una font de constant ansietat. La vostra llar us ha de transmetre un sentit de pertinència; un espai on poder arrelar, créixer i desenrolar-se. Mentre que els totxos i el ciment per si sols no us poden fer feliç, un habitatge ben dissenyat i decorat amb les més apreciades pertinències constitueix una base sòlida sobre la qual construir una vida rica i satisfactòria.
-    >
-    > No és necessari molts diners, seguir una moda amb particular, adherir-se amb principis prescrits o intentar agafar la idea d'un altre del que es la perfecció: crear un espai serè i fomentar la capacitat expressiva de cadascú; us ensenya a fiar-vos del vostres instints i a desenrolar el vostre propi estil. L'únic que heu de fer és ser vosaltres mateixos i prendre les decisions amb tot el cor. La espontaneïtat i la personalitat són els secrets de l'èxit.
-    >
-    > Una llar afable és aquell lloc on et sentiràs plenament feliç i relaxat perquè hauràs aconseguit trobar un equilibri entre el necessari, estètic i pràctic.“
+  description: "Vaig iniciar la meva carrera professional com a interiorista durant
+    el període de formació universitària a Barcelona, treballant en un estudi d'arquitectura
+    i interiorisme.  \n  \n**Des del 2003 formo part del** [**CODIC**](https://codic-lleida.com)
+    (Col·legi de Dissenyadors d'Interiors i Decoradors de Catalunya) amb el núm. de
+    col·legiada 1118 de la demarcació de Lleida, i entre el 2007 i el 2012 en formo
+    part de la junta.  \n  \nEl 2008 curso un **postgrau de Peritatges** i m'incorporo
+    a la llista de Perits Oficials del Col·legi.  \n  \nDesprés d'uns anys d'experiència
+    com a interiorista, **el 2005 obro ARQUENGIN**, un estudi d'arquitectura i disseny
+    d'interiors al Pallars Sobirà, en col·laboració amb el meu germà.  \nDes de l'oficina
+    situada a Esterri d'Àneu, duc a terme projectes d'interiorisme i il·luminació,
+    assessoro en la compra de mobiliari i en l'elecció de materials, oferint així
+    un **servei integral** en tot el relacionat amb la reforma i creació d'espais,
+    siguin d'àmbit privat o comercial.  \n  \nLa teva llar ha de ser un refugi. És
+    el lloc que t'ha d'emplenar de calma, agradar i proporcionar-te repòs i assossec,
+    sobretot si la vida fora és una font constant d'estrès. La teva llar t'ha de transmetre
+    sentit de pertinència, ha de ser un espai on poder arrelar, créixer i desenrolar-te.
+    Mentre que els totxos i el ciment per si sols no et faran sentir feliç, **un habitatge
+    ben dissenyat** i decorat amb les més apreciades pertinences, constitueix una
+    base sòlida sobre la qual construir una vida rica i satisfactòria.  \n  \nNo són
+    necessaris molts diners, seguir una moda en particular, adherir-se amb principis
+    prescrits o intentar agafar la idea d'un altre del que és la perfecció. Crear
+    un espai serè i fomentar la capacitat expressiva de cadascú, t'ensenya a fiar-te
+    dels teus instints i a desenrolar el teu propi estil. L'únic que has de fer és
+    ser com ets i prendre les decisions amb tot el cor. L'espontaneïtat i la personalitat
+    són els secrets de l'èxit, i jo t'ajudo a assolir-lo.  \n  \nUna llar afable és
+    aquell lloc on et sentiràs plenament feliç i relaxat perquè hauràs aconseguit
+    **trobar un equilibri entre el necessari, estètic i pràctic**."
 
 ---
