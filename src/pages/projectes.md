@@ -16,12 +16,17 @@ projectes:
     casa antiga de poble al Pallars. \n\n**Interiorista**: Alba Mestre\n\n**Localització**:
     Escalarre"
   images:
+  - "/images/20211125_114220.jpg"
+  - "/images/20211125_114028.jpg"
+  - "/images/20211125_114052.jpg"
   - "/images/20211125_114659.jpg"
+  - "/images/20211125_115103.jpg"
+  - "/images/20211125_115149.jpg"
+  - "/images/20211125_115213.jpg"
   - "/images/20211125_114556.jpg"
   - "/images/20211125_114526.jpg"
-  - "/images/20211125_115213.jpg"
-  - "/images/20211125_115149.jpg"
-  - "/images/20211125_115103.jpg"
+  - "/images/20211125_114422.jpg"
+  - "/images/20211125_114444.jpg"
 - title: Hotel Valls d'Àneu
   category: espai comercial
   description: |-
