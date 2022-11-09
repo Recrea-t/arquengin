@@ -10,6 +10,18 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Casa antiga a Escalarre
+  category: rehabilitació
+  description: "Disseny d'interiors i reforma integral per tal de rehabilitar una
+    casa antiga de poble al Pallars. \n\n**Interiorista**: Alba Mestre\n\n**Localització**:
+    Escalarre"
+  images:
+  - "/images/20211125_114659.jpg"
+  - "/images/20211125_114556.jpg"
+  - "/images/20211125_114526.jpg"
+  - "/images/20211125_115213.jpg"
+  - "/images/20211125_115149.jpg"
+  - "/images/20211125_115103.jpg"
 - title: Hotel Valls d'Àneu
   category: espai comercial
   description: |-
