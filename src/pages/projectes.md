@@ -10,6 +10,21 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Reforma de dúplex
+  category: " habitatge"
+  description: |-
+    Reforma integral d'un petit dúplex, en el qual l'altell correspon al dormitori. El primer pis consta d'un espai obert on s'ha fet especial èmfasi en la cuina i la il·luminació.
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: La Pobla de Segur
+  images:
+  - "/images/20221108_132333.jpg"
+  - "/images/20221108_132451.jpg"
+  - "/images/20221108_131828.jpg"
+  - "/images/20221108_123147.jpg"
+  - "/images/20221108_131024.jpg"
+  - "/images/20221108_132813.jpg"
 - title: Casa antiga a Escalarre
   category: rehabilitació
   description: "Disseny d'interiors i reforma integral per tal de rehabilitar una
