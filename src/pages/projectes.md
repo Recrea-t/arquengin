@@ -10,6 +10,15 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Reforma bany
+  category: " habitatge"
+  description: En aquesta reforma integral, hem convertit un antic bany amb banyera,
+    en un espai actual, pràctic i còmode, on destaquen la dutxa i els armaris integrats
+    oberts.
+  images:
+  - "/images/whatsapp-image-2022-11-15-at-14-05-24.jpg"
+  - "/images/whatsapp-image-2022-11-15-at-14-05-24-4.jpg"
+  - "/images/whatsapp-image-2022-11-15-at-14-05-24-3.jpg"
 - title: Reforma de dúplex
   category: " habitatge"
   description: |-
