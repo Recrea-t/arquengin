@@ -12,12 +12,15 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
 projectes:
 - title: Reforma bany
   category: " habitatge"
-  description: En aquesta reforma integral, hem convertit un antic bany amb banyera,
-    en un espai actual, pràctic i còmode, on destaquen la dutxa i els armaris integrats
-    oberts.
+  description: |-
+    En aquesta reforma integral, hem convertit un antic bany amb banyera, en un espai actual, pràctic i còmode, on destaquen la dutxa i els armaris integrats oberts.
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: Esterri d'Àneu
   images:
-  - "/images/whatsapp-image-2022-11-15-at-14-05-24.jpg"
   - "/images/whatsapp-image-2022-11-15-at-14-05-24-4.jpg"
+  - "/images/whatsapp-image-2022-11-15-at-14-05-24.jpg"
   - "/images/whatsapp-image-2022-11-15-at-14-05-24-3.jpg"
 - title: Reforma de dúplex
   category: " habitatge"
