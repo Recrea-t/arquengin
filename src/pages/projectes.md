@@ -10,6 +10,27 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Reforma integral d'apartament
+  category: " habitatge"
+  description: |-
+    Reforma integral en un apartament, on per al bany hem aprofitat l'espai sota les obertures de la coberta per instal·lar-hi una banyera exempta, i a l'altre costat, on el sostre és més alt, una pràctica dutxa per al dia a dia.
+
+    A la cuina petita i molt lluminosa, hem aprofitat tot l'espai disponible mitjançant armaris baixos, columnes i un bon taulell per maximitzar la zona de treball.
+
+    L'accés a les dues estances és mitjançant portes corredisses translúcides, les quals permeten mantenir la intimitat, i al mateix temps il·luminar de manera natural el passadís que no té finestres.
+
+    **Interiorista**: Alba Mestre
+
+    **Localització**: València d'Àneu
+  images:
+  - "/images/banyeraweb_horitz.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-copia.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-12-1.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-16.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-15.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-17.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-16-1-copia.jpg"
+  - "/images/whatsapp-image-2022-10-25-at-10-51-14-1-copia.jpg"
 - title: Reforma bany
   category: " habitatge"
   description: |-
