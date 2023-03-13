@@ -12,10 +12,11 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
 projectes:
 - title: Reforma de cuina
   category: rehabilitació
-  description: En el projecte de rehabilitació d'una casa a València d'Àneu, una de
-    les estances a reformar ha estat la cuina. Conservant alguns elements antics,
+  description: "En el projecte de rehabilitació d'una casa a València d'Àneu, una
+    de les estances a reformar ha estat la cuina. \n\nConservant alguns elements antics
     per desig dels propietaris, com ara la llar de foc o el paviment del terra, hem
-    actualitzat l'espai, convertint-lo en una zona pràctica, funcional i ordenada.
+    actualitzat l'espai, convertint-lo en una zona pràctica, funcional i ordenada.\n\n**Interiorista**:
+    Alba Mestre\n\n**Localització**: València d'Àneu"
   images:
   - "/images/cuina01.jpg"
   - "/images/finestra_despresdins.jpg"
