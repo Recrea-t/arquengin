@@ -10,6 +10,16 @@ text: "Ajudem a particulars i comerços a disposar d'espais confortables i a mid
   ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura
   i interiorisme en què hem treballat, principalment, al Pallars Sobirà."
 projectes:
+- title: Reforma de cuina
+  category: rehabilitació
+  description: En el projecte de rehabilitació d'una casa a València d'Àneu, una de
+    les estances a reformar ha estat la cuina. Conservant alguns elements antics,
+    per desig dels propietaris, com ara la llar de foc o el paviment del terra, hem
+    actualitzat l'espai, convertint-lo en una zona pràctica, funcional i ordenada.
+  images:
+  - "/images/cuina01.jpg"
+  - "/images/finestra_despresdins.jpg"
+  - "/images/finestra_despresfora.jpg"
 - title: Reforma integral d'apartament
   category: " habitatge"
   description: |-
