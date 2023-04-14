@@ -184,19 +184,25 @@ projectes:
 - title: Habitatge Dorve
   category: rehabilitació
   description: |-
-    Rehabilitació de casa antiga
+    Rehabilitació de casa antiga de muntanya.
 
     **Interiorista:** Alba mestre
 
     **Localització:** Dorve
   images:
+  - "/images/img_2333.JPG"
+  - "/images/img_2332.JPG"
   - "/images/20180329_133052.jpg"
-  - "/images/20180329_133001.jpg"
-  - "/images/20180605_190231.jpg"
-  - "/images/20180605_185936.jpg"
-  - "/images/20180605_184830.jpg"
-  - "/images/20180605_191702.jpg"
-  - "/images/20180605_184623.jpg"
+  - "/images/img_2302.JPG"
+  - "/images/img_2301.JPG"
+  - "/images/img_2338-1.JPG"
+  - "/images/img_2334.JPG"
+  - "/images/img_2325.JPG"
+  - "/images/img_2292.JPG"
+  - "/images/img_2290.JPG"
+  - "/images/img_2284.JPG"
+  - "/images/img_2280.JPG"
+  - "/images/img_2264.JPG"
 - category: espai comercial
   description: |-
     Reforma integral i mobiliari de la sala d'estar del Càmping la Mola.
