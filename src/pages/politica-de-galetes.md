@@ -2,8 +2,16 @@
 templateKey: general-page
 title: Política de galetes
 description: Política de galetes
-
+_template: general
 ---
+
+
+
+
+
+
+
+
 ## Política de galetes
 
 #### Què són les galetes?

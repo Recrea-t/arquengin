@@ -2,8 +2,16 @@
 templateKey: general-page
 title: Avís legal
 description: ''
-
+_template: general
 ---
+
+
+
+
+
+
+
+
 ## Avís legal
 
 Benvingut la pàgina WEB de *Arquitectura d'interiors Alba SL*

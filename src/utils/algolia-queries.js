@@ -6,6 +6,9 @@ const indexName = `projectes`
 const pageQuery = `{
   pages:
     markdownRemark(fileAbsolutePath: {regex: "/(projectes)/"}) {
+		  internal {
+				contentDigest
+			}
       frontmatter {
         projectes {
           title
