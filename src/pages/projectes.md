@@ -8,19 +8,33 @@ description: >-
 text: >-
   Ajudem a particulars i comerços a disposar d'espais confortables i a mida, que
   els permetin trobar l'equilibri i assolir l'èxit mitjançant un servei
-  integral.  
-    
+  integral.
+
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma
   integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho
   compartir ens omple de satisfacció, així que a continuació mostrem alguns
   projectes d'arquitectura i interiorisme en què hem treballat, principalment,
   al Pallars Sobirà.
 projectes:
+  - title: Revestiments de cuina i bany amb Microciment.
+    category: rehabilitació
+    description: >-
+      Revestiments de cuina i bany amb Microciment.
+
+      **Interiorista**: Alba Mestre
+
+
+      **Localització**: València d'Àneu
+    images:
+      - /images/01_CuinaMicrociment.jpg
+      - /images/02_banyMicrociment.jpg
+      - /images/03_banyMicrociment.jpg
+      - /images/04_banyMicrociment.jpg
   - title: Reforma de cuina
     category: rehabilitació
     description: >-
       En el projecte de rehabilitació d'una casa a València d'Àneu, una de les
-      estances a reformar ha estat la cuina. 
+      estances a reformar ha estat la cuina.
 
 
       Conservant alguns elements antics per desig dels propietaris, com ara la
@@ -107,7 +121,7 @@ projectes:
     category: rehabilitació
     description: >-
       Disseny d'interiors i reforma integral per tal de rehabilitar una casa
-      antiga de poble al Pallars. 
+      antiga de poble al Pallars.
 
 
       **Interiorista**: Alba Mestre
@@ -209,7 +223,7 @@ projectes:
     category: espai comercial
     description: >-
       Reforma integral i mobiliari del nou espai de coworking del Pallars
-      Sobirà. 
+      Sobirà.
 
 
       **Interiorista**: Alba Mestre
