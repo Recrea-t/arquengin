@@ -29,12 +29,13 @@ const pageQuery = `{
 		}
 }`
 
-function pageToAlgoliaRecord({ title, category, images }) {
+function pageToAlgoliaRecord({ title, category, images }, internal) {
   return {
     objectID: slugify(title, { lower: true }),
     title: title,
     category: category,
     image: images[0],
+		internal: internal,
   }
 }
 
@@ -42,7 +43,7 @@ const queries = [
   {
     query: pageQuery,
     transformer: ({ data }) =>
-      data.pages.frontmatter.projectes.map(pageToAlgoliaRecord),
+		data.pages.frontmatter.projectes.map((project) => pageToAlgoliaRecord(project, data.pages.internal)),
     indexName,
     settings: {
       searchableAttributes: [`category`],

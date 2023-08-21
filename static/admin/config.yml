@@ -186,7 +186,7 @@ collections:
                 - label: Categoria
                   name: category
                   widget: select
-                  options: ["habitatge", "rehabilitació", "espai comercial"]
+                  options: [" habitatge", "rehabilitació", "espai comercial"]
                 - label: Descripció
                   name: description
                   widget: markdown

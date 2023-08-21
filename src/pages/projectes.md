@@ -16,10 +16,11 @@ text: >-
   projectes d'arquitectura i interiorisme en què hem treballat, principalment,
   al Pallars Sobirà.
 projectes:
-  - title: Revestiments de cuina i bany amb Microciment.
+  - title: Revestiments de cuina i bany.
     category: rehabilitació
     description: >-
       Revestiments de cuina i bany amb Microciment.
+
 
       **Interiorista**: Alba Mestre
 
