@@ -19,12 +19,18 @@ projectes:
       proporcionat el mobiliari necessari.
 
 
-      \*\*Interiorista\*\*: Alba Mestre
+      **Interiorista**: Alba Mestre
 
 
-      \*\*Localització\*\*: Esterri d'Àneu
+      **Localització**: Esterri d'Àneu
     images:
+      - /images/natural_10.jpg
       - /images/natural_01.jpg
+      - /images/natural_03.jpg
+      - /images/natural_04.jpg
+      - /images/natural_05.jpg
+      - /images/natural_07.jpg
+      - /images/natural_08.jpg
   - title: Revestiments de cuina i bany.
     category: rehabilitació
     description: |-
