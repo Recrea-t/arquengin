@@ -10,12 +10,6 @@ text: >-
   integral.
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
-projectes:
-  - title: "hola "
-    category: espai comercial
-    description: hola
-    images:
-      - alt: imatge
-        src: /images/bodega.jpg
+projectes: []
 _template: projectes
 ---
