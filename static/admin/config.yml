@@ -195,15 +195,7 @@ collections:
                   widget: list
                   minimize_collapsed: true
                   label_singular: imatge
-                  fields:
-                    - label: Text alternatiu
-                      name: alt
-                      widget: string
-                      required: false
-                      default: "imatge"
-                    - label: Imatge
-                      name: src
-                      widget: image
+                  field: {label: Imatge, name: src, widget: image}
         - name: 'contact'
           label: 'Contacte'
           file: 'src/pages/contacte.md'
