@@ -11,12 +11,15 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
-  - title: hola
-    description: aaaa
+  - title: hola i hola
+    description: |-
+      aaaa
+
+      **aaaa** aaaaa
     images:
       - /images/01_CuinaMicrociment.jpg
       - /images/02_banyMicrociment.jpg
-    category: rehabilitació
+    category: espai comercial
   - title: Revestiments de cuina i bany.
     category: rehabilitació
     description: |-
