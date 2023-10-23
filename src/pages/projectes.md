@@ -15,6 +15,7 @@ projectes:
     description: aaaa
     images:
       - /images/01_CuinaMicrociment.jpg
+      - /images/02_banyMicrociment.jpg
     category: rehabilitació
   - title: Revestiments de cuina i bany.
     category: rehabilitació
