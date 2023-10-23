@@ -1,31 +1,24 @@
 ---
 templateKey: projects-list-page
-title: 'Projectes i reformes integrals d''arquitectura, enginyeria i interiorisme'
-description: >-
-  Tenim una àmplia experiència arreu de Catalunya desenvolupant projectes de
-  reforma integral, disseny i rehabilitació d'habitatges així com espais
-  comercials.
+title: Projectes i reformes integrals d'arquitectura, enginyeria i interiorisme
+description: Tenim una àmplia experiència arreu de Catalunya desenvolupant
+  projectes de reforma integral, disseny i rehabilitació d'habitatges així com
+  espais comercials.
 text: >-
   Ajudem a particulars i comerços a disposar d'espais confortables i a mida, que
   els permetin trobar l'equilibri i assolir l'èxit mitjançant un servei
   integral.
 
-  El desenvolupament del projecte de rehabilitació de casa teva o la reforma
-  integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho
-  compartir ens omple de satisfacció, així que a continuació mostrem alguns
-  projectes d'arquitectura i interiorisme en què hem treballat, principalment,
-  al Pallars Sobirà.
+  El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
   - title: Revestiments de cuina i bany.
     category: rehabilitació
-    description: >-
+    description: |-
       Revestiments de cuina i bany amb Microciment.
 
+      **Interiorista**: Alba Mestre.
 
-      **Interiorista**: Alba Mestre
-
-
-      **Localització**: València d'Àneu
+      **Localització**: València d'Àneu.
     images:
       - /images/01_CuinaMicrociment.jpg
       - /images/02_banyMicrociment.jpg
@@ -38,9 +31,7 @@ projectes:
       estances a reformar ha estat la cuina.
 
 
-      Conservant alguns elements antics per desig dels propietaris, com ara la
-      llar de foc o el paviment del terra, hem actualitzat l'espai,
-      convertint-lo en una zona pràctica, funcional i ordenada.
+      Conservant alguns elements antics per desig dels propietaris, com ara la llar de foc o el paviment del terra, hem actualitzat l'espai, convertint-lo en una zona pràctica, funcional i ordenada.
 
 
       **Interiorista**: Alba Mestre
@@ -52,7 +43,7 @@ projectes:
       - /images/finestra_despresdins.jpg
       - /images/finestra_despresfora.jpg
   - title: Reforma integral d'apartament
-    category: ' habitatge'
+    category: " habitatge"
     description: >-
       Reforma integral en un apartament, on per al bany hem aprofitat l'espai
       sota les obertures de la coberta per instal·lar-hi una banyera exempta, i
@@ -60,14 +51,10 @@ projectes:
       dia.
 
 
-      A la cuina petita i molt lluminosa, hem aprofitat tot l'espai disponible
-      mitjançant armaris baixos, columnes i un bon taulell per maximitzar la
-      zona de treball.
+      A la cuina petita i molt lluminosa, hem aprofitat tot l'espai disponible mitjançant armaris baixos, columnes i un bon taulell per maximitzar la zona de treball.
 
 
-      L'accés a les dues estances és mitjançant portes corredisses translúcides,
-      les quals permeten mantenir la intimitat, i al mateix temps il·luminar de
-      manera natural el passadís que no té finestres.
+      L'accés a les dues estances és mitjançant portes corredisses translúcides, les quals permeten mantenir la intimitat, i al mateix temps il·luminar de manera natural el passadís que no té finestres.
 
 
       **Interiorista**: Alba Mestre
@@ -84,7 +71,7 @@ projectes:
       - /images/whatsapp-image-2022-10-25-at-10-51-16-1-copia.jpg
       - /images/whatsapp-image-2022-10-25-at-10-51-14-1-copia.jpg
   - title: Reforma bany
-    category: ' habitatge'
+    category: " habitatge"
     description: >-
       En aquesta reforma integral, hem convertit un antic bany amb banyera, en
       un espai actual, pràctic i còmode, on destaquen la dutxa i els armaris
@@ -100,7 +87,7 @@ projectes:
       - /images/whatsapp-image-2022-11-15-at-14-05-24.jpg
       - /images/whatsapp-image-2022-11-15-at-14-05-24-3.jpg
   - title: Reforma de dúplex
-    category: ' habitatge'
+    category: " habitatge"
     description: >-
       Reforma integral d'un petit dúplex, en el qual l'altell correspon al
       dormitori. El primer pis consta d'un espai obert on s'ha fet especial
@@ -205,7 +192,7 @@ projectes:
       - /images/banymorat.jpg
       - /images/banytaronja.jpg
   - title: Reforma integral de cuina
-    category: ' habitatge'
+    category: " habitatge"
     description: >-
       Cuina reformada amb mobles de melamina, taulells i frontal de silestone,
       barra lateral, electrodomèstics integrats i terra vinílic amb aparença de
@@ -305,7 +292,7 @@ projectes:
       - /images/_jb12310.JPG
       - /images/_jb12289.JPG
   - title: Habitatge
-    category: ' habitatge'
+    category: " habitatge"
     description: |-
       Reforma integral per a unificar dos pisos, en un únic habitatge dúplex.
 
@@ -340,11 +327,3 @@ projectes:
       - /images/taulatona.jpg
 _template: projectes
 ---
-
-
-
-
-
-
-
-
