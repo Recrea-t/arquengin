@@ -11,6 +11,20 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - title: Mobiliari i distribució de botiga
+    category: espai comercial
+    description: >-
+      En el canvi d'ubicació de la botiga +Natural d'Esterri d'Àneu, hem
+      redistribuït el magatzem i la sala de massatges, i hem assessorat i
+      proporcionat el mobiliari necessari.
+
+
+      \*\*Interiorista\*\*: Alba Mestre
+
+
+      \*\*Localització\*\*: Esterri d'Àneu
+    images:
+      - /images/natural_01.jpg
   - title: Revestiments de cuina i bany.
     category: rehabilitació
     description: |-
