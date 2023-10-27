@@ -11,6 +11,30 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - description: >-
+      Disseny d'habitació infantil amb mobiliari a mida, el qual aporta diverses
+      solucions d'emmagatzematge i d'espai, com ara l'escriptori extraïble a
+      darrere el llit.
+
+
+      \
+
+      Revestiment de les parets amb parquet vinílic i instal·lació d'una làmpada de sostre amb regulador d'intensitat.\
+
+      \
+
+      \*\*Interiorista\*\*: Alba Mestre\
+
+      \
+
+      \*\*Localització\*\*: Valncia dÀneu
+    title: Habitació infantil
+    category: " habitatge"
+    images:
+      - /images/hab_inf_berta_04.jpg
+      - /images/hab_inf_berta_01.jpg
+      - /images/hab_inf_berta_03.jpg
+      - /images/hab_inf_berta_07.jpg
   - title: Mobiliari i distribució de botiga
     category: espai comercial
     description: >-
