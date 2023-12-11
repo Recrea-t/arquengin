@@ -11,6 +11,42 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - title: "Rehabilitació d'antic cobert "
+    category: rehabilitació
+    description: >-
+      Rehabilitació d'un antic cobert, en habitatge de dues plantes a les Valls
+      d'Àneu, Pirineu de Lleida.
+
+
+      Disseny i distribució dels interiors.
+
+
+      Disseny íntegre dels tres banys i la cuina.
+
+
+      Proposta de mobiliari i il·luminació.
+
+
+      Disseny de la llar de foc.
+
+
+      \*\*Interiorista\*\*: Alba Mestre\
+
+      \
+
+      \*\*Localització\*\*: Alt Àneu
+    images:
+      - /images/img-20231022-wa0010-copia.jpg
+      - /images/img-20231022-wa0015-copia.jpg
+      - /images/whatsapp-image-2023-07-31-at-12.27.00-3-copia.jpg
+      - /images/whatsapp-image-2023-07-31-at-12.27.02-3-.jpg
+      - /images/whatsapp-image-2023-11-13-at-12.36.46.jpg
+      - /images/20231022_200821.jpg
+      - /images/20231022_200208.jpg
+      - /images/whatsapp-image-2023-10-08-at-19.03.34-copia.jpg
+      - /images/20231008_190430.jpg
+      - /images/whatsapp-image-2023-08-23-at-11.21.30-copia.jpg
+      - /images/whatsapp-image-2023-08-23-at-11.21.30-1-copia.jpg
   - description: >-
       Disseny d'habitació infantil amb mobiliari a mida, el qual aporta diverses
       solucions d'emmagatzematge i d'espai, com ara l'escriptori extraïble a
