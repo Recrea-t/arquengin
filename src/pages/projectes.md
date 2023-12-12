@@ -30,11 +30,11 @@ projectes:
       Disseny de la llar de foc.
 
 
-      \*\*Interiorista\*\*: Alba Mestre\
+      **Interiorista**: Alba Mestre\
 
       \
 
-      \*\*Localització\*\*: Alt Àneu
+      **Localització**: Alt Àneu
     images:
       - /images/img-20231022-wa0010-copia.jpg
       - /images/img-20231022-wa0015-copia.jpg
