@@ -11,6 +11,22 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - title: Reforma de cuina
+    category: " habitatge"
+    images:
+      - /images/cuina_ribera_reformada.jpg
+    description: >-
+      Cuina reformada amb mobles de melamina, taulells i frontal
+      de porcellànic blanc i electrodomèstics integrats, conservant l'antic
+      terra de rajola.\
+
+      \
+
+      **Interiorista**: Alba Mestre\
+
+      \
+
+      **Localització**: Ribera de Cardós
   - title: "Rehabilitació d'antic cobert "
     category: rehabilitació
     description: >-
