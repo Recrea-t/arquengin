@@ -11,6 +11,21 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - title: Reforma parcial d'un bany
+    category: " habitatge"
+    description: >-
+      Mantenint els revestiments originals, s'ha canviant la banyera per una
+      dutxa, els sanitaris, el mobiliari i la il·luminació.
+
+
+      **Interiorista**: Alba Mestre\
+
+      \
+
+      **Localització**: Alt Àneu
+    images:
+      - /images/bany_01.jpg
+      - /images/bany_02.jpg
   - title: Reforma de cuina
     category: " habitatge"
     images:
