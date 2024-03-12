@@ -26,7 +26,7 @@ projectes:
     images:
       - /images/bany_01.jpg
       - /images/bany_02.jpg
-  - title: Reforma de cuina
+  - title: Reforma de cuina.
     category: " habitatge"
     images:
       - /images/cuina_ribera_reformada.jpg
