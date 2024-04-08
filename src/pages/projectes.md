@@ -11,6 +11,27 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - title: Reforma integral pis
+    category: " habitatge"
+    description: |-
+      Reforma integral d'un pis en el qual:
+
+      * S'ha dotat de més llum natural l'habitatge. 
+      * S'ha canviat el terra. 
+      * S'ha dissenyat i equipat la cuina. 
+      * S'ha Il·luminat i pintat tot el pis. 
+      * S'han moblat tots els espais.
+
+      **Interiorista**: Alba Mestre\
+      \
+      **Localització**: Esterri d'Àneu
+    images:
+      - /images/piscosta_01.jpg
+      - /images/piscosta_03.jpg
+      - /images/piscosta_02.jpg
+      - /images/piscosta_08.jpg
+      - /images/piscosta_05.jpg
+      - /images/piscosta_09.jpg
   - title: Reforma parcial d'un bany
     category: " habitatge"
     description: >-
