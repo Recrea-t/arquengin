@@ -1,15 +1,14 @@
 ---
 templateKey: projects-list-page
-title: Projectes i reformes integrals d'arquitectura, enginyeria i interiorisme
+title: Projectes i reformes integrals d'arquitectura i interiorisme al Pirineu
 description: Tenim una àmplia experiència arreu de Catalunya desenvolupant
   projectes de reforma integral, disseny i rehabilitació d'habitatges així com
-  espais comercials.
+  en interiorisme d'espais comercials.
 text: >-
-  Ajudem a particulars i comerços a disposar d'espais confortables i a mida, que
-  els permetin trobar l'equilibri i assolir l'èxit mitjançant un servei
-  integral.
+  **Ajudem a particulars i comerços a disposar d’espais confortables i a mida
+  per millorar l’habitabilitat i ús eficient oferint un servei integral**.
 
-  El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
+  El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
   - title: Rehabilitació de casa antiga
     category: rehabilitació
