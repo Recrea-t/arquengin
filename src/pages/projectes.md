@@ -11,6 +11,50 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció, així que a continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, al Pallars Sobirà.
 projectes:
+  - title: Rehabilitació de casa antiga
+    category: rehabilitació
+    description: >-
+      Rehabilitació d'una antiga casa de muntanya, reconvertida en un habitatge
+      modern, pràctic i confortable.\
+
+      \
+
+      **Arquitecte**: Joel Torras
+
+
+
+      **Arquitecte Tècnic**: Jordi Mestre
+
+
+
+      **Interiorista**: Alba Mestre
+
+
+
+      **Localització**: Escart
+    images:
+      - /images/final_12.jpg
+      - /images/final_05.jpg
+      - /images/final_02.jpg
+      - /images/final_08.jpg
+      - /images/final_09.jpg
+      - /images/final_07.jpg
+      - /images/final_01.jpg
+      - /images/final_04.jpg
+      - /images/final_03.jpg
+      - /images/final_11.jpg
+  - description: |-
+      Reforma integral d'una cuina petita, pràctica i lluminosa.
+
+      **Interiorista**: Alba Mestre\
+      \
+      **Localització**: Esterri d'Àneu
+    images:
+      - /images/cuina_03.jpg
+      - /images/cuina_01.jpg
+      - /images/cuina_02.jpg
+    category: " habitatge"
+    title: Reforma de cuina petita
   - title: Reforma integral pis
     category: " habitatge"
     description: |-
