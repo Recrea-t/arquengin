@@ -10,6 +10,20 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
+  - title: Bany renovat
+    category: " habitatge"
+    description: >-
+      Transformació completa d'un bany, canviant revestiments, substituint la
+      banyera per una àmplia dutxa, i renovant el mobiliari i la il·luminació.\
+
+      \
+
+      **Interiorista**: Alba Mestre
+
+
+      **Localització**: Esterri d'Aneu
+    images:
+      - /images/bany_anavega_02.jpg
   - title: Rehabilitació de casa antiga
     category: rehabilitació
     description: >-
