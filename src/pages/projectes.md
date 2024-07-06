@@ -10,7 +10,7 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
-  - title: Bany renovat
+  - title: Bany renovat.
     category: " habitatge"
     description: >-
       Transformació completa d'un bany, canviant revestiments, substituint la
