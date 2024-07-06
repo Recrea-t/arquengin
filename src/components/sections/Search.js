@@ -1,7 +1,7 @@
 import { default as React, useState } from "react"
 import algoliasearch from "algoliasearch/lite"
 
-import { InstantSearch } from "react-instantsearch-dom"
+import { InstantSearch, Configure } from "react-instantsearch-dom"
 
 import SearchFilters from "../ui/SearchFilters"
 import SearchResult from "../ui/SearchResult"
@@ -20,6 +20,7 @@ export default function Search({ indices }) {
       indexName={indices[0].name}
       onSearchStateChange={({ query }) => setQuery(query)}
     >
+      <Configure hitsPerPage={40} />
       <SearchFilters
         attribute="category"
         onFocus={() => setFocus(true)}
