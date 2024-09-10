@@ -10,6 +10,24 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
+  - title: Reforma i ampliació de cuina
+    category: " habitatge"
+    description: >-
+      Cuina totalment reformada (a excepció del paviment), redistribuïda i
+      ampliada.
+
+
+      **Interiorista**: Alba Mestre\
+
+      \
+
+      **Localització**: Sort
+    images:
+      - /images/whatsapp-image-2024-07-29-at-10.12.27-2.jpg
+      - /images/whatsapp-image-2024-07-29-at-10.12.27-3.jpg
+      - /images/whatsapp-image-2024-07-29-at-10.12.26-3.jpg
+      - /images/whatsapp-image-2024-07-29-at-10.12.26-5.jpg
+      - /images/whatsapp-image-2024-07-29-at-10.12.jpg
   - title: Bany renovat.
     category: " habitatge"
     description: >-
