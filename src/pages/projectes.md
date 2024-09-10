@@ -1,9 +1,9 @@
 ---
 templateKey: projects-list-page
 title: Projectes i reformes integrals d'arquitectura i interiorisme al Pirineu
-description: Tenim una àmplia experiència arreu de Catalunya desenvolupant
-  projectes de reforma integral, disseny i rehabilitació d'habitatges així com
-  en interiorisme d'espais comercials.
+description: "Desenvolupem projectes de reforma integral, disseny i
+  rehabilitació d'habitatges així com de reforma i interiorisme d'espais
+  comercials. Utilitzem tècniques d'arquitectura i construcció sostenible. "
 text: >-
   **Ajudem a particulars i comerços a disposar d’espais confortables i a mida
   per millorar l’habitabilitat i ús eficient oferint un servei integral**.
