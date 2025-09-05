@@ -10,6 +10,22 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
+  - title: Renovació d'oficina
+    category: espai comercial
+    description: >-
+      Reforma d'una antiga oficina de correus, reconvertida en l'oficina de
+      Serveis Socials del Consell Comarcal a Esterri d'Àneu. Hem redistribuït,
+      pintat i adequat l'espai al seu nou ús.
+
+
+      **Interiorista**: Alba Mestre
+
+
+      **Localització**: Esterri d'Aneu
+    images:
+      - /images/whatsapp-image-2025-09-01-at-16.05.24-1-.jpg
+      - /images/whatsapp-image-2025-09-01-at-16.05.22.jpg
+      - /images/whatsapp-image-2025-09-01-at-16.05.23-3-.jpg
   - title: Reforma de bany conservant elements originals
     category: " habitatge"
     images:
