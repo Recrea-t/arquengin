@@ -516,14 +516,14 @@ projectes:
       - /images/20180725_135020-1.jpg
       - /images/20180725_134819.jpg
       - /images/20180725_135143.jpg
-  - title: Burgerplatz
+  - title: Hamburgueseria
     category: espai comercial
     description: |-
-      Disseny d'interiors i mobiliari de l'hamburgueseria Burgerplatz.
+      Disseny d'interiors i mobiliari d'una hamburgueseria.
 
       **Interiorista:** Alba Mestre
 
-      **Localització:** Espot
+      **Localització**: Pallars Sobirà
     images:
       - /images/_jb12384.JPG
       - /images/_jb12337.JPG
@@ -545,7 +545,7 @@ projectes:
       - /images/_jb19024.jpg
       - /images/_jb19034.jpg
   - category: espai comercial
-    title: Bar Bodega La Tona
+    title: Bar - Bodega
     description: >-
       Mobiliari i rehabilitació d'uns antics baixos, convertits en Bar, bodega i
       restaurant.
@@ -557,7 +557,7 @@ projectes:
       **Interiorista:** Alba Mestre
 
 
-      **Localització:** Isil
+      **Localització**: Pallars Sobirà
     images:
       - /images/bargeneral.jpg
       - /images/barra.jpg
