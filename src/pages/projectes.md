@@ -21,7 +21,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Esterri d'Aneu
+      **Localització**: Pallars Sobira
     images:
       - /images/whatsapp-image-2025-09-01-at-16.05.24-1-.jpg
       - /images/whatsapp-image-2025-09-01-at-16.05.22.jpg
@@ -56,7 +56,7 @@ projectes:
 
       \
 
-      **Localització**: Sort
+      **Localització**: Pallars Sobirà
     images:
       - /images/whatsapp-image-2024-07-29-at-10.12.27-2.jpg
       - /images/whatsapp-image-2024-07-29-at-10.12.27-3.jpg
@@ -74,7 +74,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Esterri d'Aneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/bany_anavega_02.jpg
   - title: Rehabilitació de casa antiga
@@ -88,16 +88,13 @@ projectes:
       **Arquitecte**: Joel Torras
 
 
-
       **Arquitecte Tècnic**: Jordi Mestre
-
 
 
       **Interiorista**: Alba Mestre
 
 
-
-      **Localització**: Escart
+      **Localització**: Pallars Sobirà
     images:
       - /images/final_12.jpg
       - /images/final_05.jpg
@@ -114,7 +111,7 @@ projectes:
 
       **Interiorista**: Alba Mestre\
       \
-      **Localització**: Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/cuina_03.jpg
       - /images/cuina_01.jpg
@@ -134,7 +131,7 @@ projectes:
 
       **Interiorista**: Alba Mestre\
       \
-      **Localització**: Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/piscosta_01.jpg
       - /images/piscosta_03.jpg
@@ -153,7 +150,7 @@ projectes:
 
       \
 
-      **Localització**: Alt Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/bany_01.jpg
       - /images/bany_02.jpg
@@ -172,7 +169,7 @@ projectes:
 
       \
 
-      **Localització**: Ribera de Cardós
+      **Localització**: Pallars Sobirà
   - title: "Rehabilitació d'antic cobert "
     category: rehabilitació
     description: >-
@@ -196,7 +193,7 @@ projectes:
 
       \
 
-      **Localització**: Alt Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/img-20231022-wa0010-copia.jpg
       - /images/img-20231022-wa0015-copia.jpg
@@ -221,11 +218,11 @@ projectes:
 
       \
 
-      \*\*Interiorista\*\*: Alba Mestre\
+      **Interiorista**: Alba Mestre\
 
       \
 
-      \*\*Localització\*\*: Valncia dÀneu
+      **Localització**: Pallars Sobirà
     title: Habitació infantil
     category: " habitatge"
     images:
@@ -244,7 +241,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/natural_10.jpg
       - /images/natural_01.jpg
@@ -260,7 +257,7 @@ projectes:
 
       **Interiorista**: Alba Mestre.
 
-      **Localització**: València d'Àneu.
+      **Localització**: Pallars Sobirà
     images:
       - /images/01_CuinaMicrociment.jpg
       - /images/02_banyMicrociment.jpg
@@ -279,7 +276,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: València d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/cuina01.jpg
       - /images/finestra_despresdins.jpg
@@ -302,7 +299,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: València d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/banyeraweb_horitz.jpg
       - /images/whatsapp-image-2022-10-25-at-10-51-copia.jpg
@@ -323,7 +320,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/whatsapp-image-2022-11-15-at-14-05-24-4.jpg
       - /images/whatsapp-image-2022-11-15-at-14-05-24.jpg
@@ -339,7 +336,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: La Pobla de Segur
+      **Localització**: Pallars Jussà
     images:
       - /images/20221108_132333.jpg
       - /images/20221108_132451.jpg
@@ -347,7 +344,7 @@ projectes:
       - /images/20221108_123147.jpg
       - /images/20221108_131024.jpg
       - /images/20221108_132813.jpg
-  - title: Casa antiga a Escalarre
+  - title: Casa antiga
     category: rehabilitació
     description: >-
       Disseny d'interiors i reforma integral per tal de rehabilitar una casa
@@ -357,7 +354,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Escalarre
+      **Localització**: Pallars Sobirà
     images:
       - /images/20211125_114220.jpg
       - /images/20211125_114028.jpg
@@ -370,11 +367,11 @@ projectes:
       - /images/20211125_114526.jpg
       - /images/20211125_114422.jpg
       - /images/20211125_114444.jpg
-  - title: Hotel Valls d'Àneu
+  - title: Hotel
     category: espai comercial
     description: >-
-      Reforma integral de les habitacions de l'hotel Valls d'Àneu. Aquest
-      projecte d'interiorisme comercial s'ha realitzat en tres fases:
+      Reforma integral de les habitacions d'un hotel. Aquest projecte
+      d'interiorisme comercial s'ha realitzat en tres fases:
 
 
       * Primera fase: reforma de les habitacions de la tercera planta.
@@ -387,7 +384,7 @@ projectes:
       **Interiorista:** Alba Mestre
 
 
-      **Localització:** Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/_jb15879.JPG
       - /images/_jb15912.JPG
@@ -411,20 +408,20 @@ projectes:
 
       **Arquitecte**: Jordi Mestre
 
-      **Localització**: Altron (Pallars Sobirà)
+      **Localització**: Pallars Sobirà
     images:
       - /images/casapedra.jpg
-  - title: Reforma de banys
+  - title: Reforma de banys hotel
     category: espai comercial
     description: >-
-      Reforma dels banys de les habitacions de l'hotel _la Posada d'Àneu_, amb
-      aplicació de microciment de colors, diferents en cada bany.
+      Reforma dels banys de les habitacions d'un hotel, amb aplicació de
+      microciment de colors, diferents en cada bany.
 
 
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Eterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/banylila.jpg
       - /images/banyverd.jpg
@@ -444,7 +441,7 @@ projectes:
       **Interiorista**: Alba Mestre
 
 
-      **Localització**: Esterri dÀneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/cuinaesterri03.jpg
       - /images/cuinaesterri02.jpg
@@ -463,7 +460,7 @@ projectes:
     images:
       - /images/20201223_142447.jpg
       - /images/20201223_142015.jpg
-  - title: Habitatge Esterri d'Àneu
+  - title: Habitatge
     category: rehabilitació
     description: |-
       Rehabilitació de casa antiga
@@ -472,7 +469,7 @@ projectes:
 
       **Interiorista**: Alba Mestre
 
-      **Localització**: Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/20191009_104210.jpg
       - /images/20201104_110832-1.jpg
@@ -485,14 +482,14 @@ projectes:
       - /images/20201026_114138-1.jpg
       - /images/20201026_113941-1.jpg
       - /images/20201026_114114.jpg
-  - title: Habitatge Dorve
+  - title: Habitatge de muntanya
     category: rehabilitació
     description: |-
       Rehabilitació de casa antiga de muntanya.
 
       **Interiorista:** Alba mestre
 
-      **Localització:** Dorve
+      **Localització**: Pallars Sobirà
     images:
       - /images/img_2333.JPG
       - /images/img_2332.JPG
@@ -509,12 +506,12 @@ projectes:
       - /images/img_2264.JPG
   - category: espai comercial
     description: |-
-      Reforma integral i mobiliari de la sala d'estar del Càmping la Mola.
+      Reforma integral i mobiliari de la sala d'estar d'un càmping.
 
       **Interiorista**: Alba Mestre
 
-      **Localització**: Espot
-    title: Saleta Camping la Mola
+      **Localització**: Pallars Sobirà
+    title: "Saleta Càmping "
     images:
       - /images/20180725_135020-1.jpg
       - /images/20180725_134819.jpg
@@ -533,14 +530,14 @@ projectes:
       - /images/_jb12315.JPG
       - /images/_jb12310.JPG
       - /images/_jb12289.JPG
-  - title: Habitatge
+  - title: Dúplex
     category: " habitatge"
     description: |-
       Reforma integral per a unificar dos pisos, en un únic habitatge dúplex.
 
       **Interiorista:** Alba Mestre
 
-      **Localització:** Esterri d'Àneu
+      **Localització**: Pallars Sobirà
     images:
       - /images/_jb19012a.jpg
       - /images/_jb19011.jpg
