@@ -10,6 +10,21 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
+  - title: Mobiliari oficina de turisme
+    category: espai comercial
+    description: >-
+      Proposta, muntatge i distribució del mobiliari per a la nova Oficina de
+      Turisme del Pallars Sobirà.
+
+
+      **Interiorista**: Alba Mestre
+
+
+      **Localització**: Sort
+    images:
+      - /images/ofiturismesort_17.jpg
+      - /images/ofiturismesort_13.jpg
+      - /images/ofiturismesort_06.jpg
   - title: Renovació d'oficina
     category: espai comercial
     description: >-
