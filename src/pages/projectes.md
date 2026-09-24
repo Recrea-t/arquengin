@@ -154,21 +154,6 @@ projectes:
       - /images/piscosta_08.jpg
       - /images/piscosta_05.jpg
       - /images/piscosta_09.jpg
-  - title: Reforma parcial d'un bany
-    category: " habitatge"
-    description: >-
-      Mantenint els revestiments originals, s'ha canviant la banyera per una
-      dutxa, els sanitaris, el mobiliari i la il·luminació.
-
-
-      **Interiorista**: Alba Mestre\
-
-      \
-
-      **Localització**: Pallars Sobirà
-    images:
-      - /images/bany_01.jpg
-      - /images/bany_02.jpg
   - title: Reforma de cuina.
     category: " habitatge"
     images:
@@ -359,29 +344,6 @@ projectes:
       - /images/20221108_123147.jpg
       - /images/20221108_131024.jpg
       - /images/20221108_132813.jpg
-  - title: Casa antiga
-    category: rehabilitació
-    description: >-
-      Disseny d'interiors i reforma integral per tal de rehabilitar una casa
-      antiga de poble al Pallars.
-
-
-      **Interiorista**: Alba Mestre
-
-
-      **Localització**: Pallars Sobirà
-    images:
-      - /images/20211125_114220.jpg
-      - /images/20211125_114028.jpg
-      - /images/20211125_114052.jpg
-      - /images/20211125_114659.jpg
-      - /images/20211125_115103.jpg
-      - /images/20211125_115149.jpg
-      - /images/20211125_115213.jpg
-      - /images/20211125_114556.jpg
-      - /images/20211125_114526.jpg
-      - /images/20211125_114422.jpg
-      - /images/20211125_114444.jpg
   - title: Hotel
     category: espai comercial
     description: >-
@@ -416,16 +378,6 @@ projectes:
       - /images/dsc_0029.jpg
       - /images/dsc_0027.jpg
       - /images/dsc_0038.jpg
-  - title: Casa de pedra
-    category: rehabilitació
-    description: |-
-      Rehabilitació de casa de poble.
-
-      **Arquitecte**: Jordi Mestre
-
-      **Localització**: Pallars Sobirà
-    images:
-      - /images/casapedra.jpg
   - title: Reforma de banys hotel
     category: espai comercial
     description: >-
