@@ -10,6 +10,22 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
+  - title: Reforma banys i cuina
+    category: " habitatge"
+    description: >-
+      Reforma de la cuina i els dos banys d'un mateix habitatge, conservant
+      alguns elements originals com rajoles o bigues.
+
+
+      **Interiorista**: Alba Mestre
+
+
+      **Localització**: Pallars Sobira
+    images:
+      - /images/cuinaacabada_05.jpg
+      - /images/banydaltacabat_04.jpg
+      - /images/banydaltacabat_07.jpg
+      - /images/banybaixacabat.jpeg
   - title: Reforma Integral d'un pis
     category: " habitatge"
     description: |-
