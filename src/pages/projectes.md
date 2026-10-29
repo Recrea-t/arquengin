@@ -10,6 +10,22 @@ text: >-
 
   El desenvolupament del projecte de rehabilitació de casa teva o la reforma integral del teu negoci, és per a nosaltres un repte apassionant, i poder-ho compartir ens omple de satisfacció. A continuació mostrem alguns projectes d'arquitectura i interiorisme en què hem treballat, principalment, a l'Alt Pirineu.
 projectes:
+  - title: Reforma Integral d'un pis
+    category: " habitatge"
+    description: |-
+      Reforma integral d'un pis de dues habitacions.
+
+      **Interiorista**: Alba Mestre
+
+      **Localització**: Pallars Sobira
+    images:
+      - /images/dsc_0004.jpg
+      - /images/dsc_0025.jpg
+      - /images/dsc_0011.jpg
+      - /images/dsc_0009.jpg
+      - /images/dsc_0032.jpg
+      - /images/dsc_0047.jpg
+      - /images/dsc_0044.jpg
   - title: Mobiliari oficina de turisme
     category: espai comercial
     description: >-
